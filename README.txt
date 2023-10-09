@@ -1,6 +1,6 @@
 Group: Alex, Anthony, Gabriel, Bradley, Salma
 
-Company Name: FoodFrame
+Company Name: FoodFrame 
 
 Product Name: FoodFrame
 
