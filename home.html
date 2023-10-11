@@ -7,7 +7,7 @@
 	</head>
 
 	<body>
-		<h2><a href="https://openclassrooms.com">Voi le lien vers open classroom</a></h2> <!-- Voici comment inserer des liens -->
+		<h2 id="mon_ancre"><a href="https://openclassrooms.com">Voi le lien vers open classroom</a></h2> <!-- Voici comment inserer des liens -->
 		<p>jbdsoj vojsd j sh sj<br/> nos <em>csd</em> <strong>sivoif</strong>  </p>
 		<ul>
 			<li>Pomme</li>
@@ -16,17 +16,29 @@
 		</ul>
 
 		<p>Examples importation images<br />
-		<img class="img1" src="images/fruit_legume.jpeg" alt="Random photo de la Nourriture" />
+			<img src="images/fruit_legume.jpeg" alt="Random photo de la Nourriture" id="logo" />
+			<a>
+				<img src="images/apple_logo.svg" alt="Photo du logo apple en svg" id="logo_a" title="Logo Apple"/>
+				<!-- Les images en svg sont optimales, tu garde la meme qualiter de l'image quand tu zoom-->
+			</a>
 		</p>
 
 		<p class="col1">Première couleur</p>
 		<p class="col2">Deuxieme couleur</p>
 		<p class="col3">Troisime couleur</p>
-		<p class="col4">Quatrieme couleur</p>
+		<p class="col4">Quatrieme couleur<br/><a href="#mon_ancre">Debut de page</a></p> <!-- Voici comment faire un ancre vers une autre partie de la page -->
 		<p><a href="https://openclassrooms.com" target="_blank">Allo</a></p> <!-- Voici comment ouvrir un lien sur une nouvelle page -->
 
 
 
 
 	</body>
-</html>
+</html> 
+
+
+
+
+
+
+
+
