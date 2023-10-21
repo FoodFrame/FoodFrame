@@ -1,0 +1,56 @@
+.foodframe-header {
+    padding-top: 1%;
+    display: flex;
+    margin: auto;
+    font-family: inherit;
+    justify-content: center;
+}
+
+span {
+    color: #F2884B;
+    padding-left: 10px;
+}
+
+.hero-photos {
+    white-space: nowrap;
+}
+
+.styling-photos {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+}
+
+img {
+    background-color: #F2884B;
+    border-collapse: separate;
+    border-radius: 15%;
+    height: 20%;
+    width: 21%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+button {
+    padding: 2% 15%;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: transparent;
+    border-radius: 3%;
+    background-color: #F2884B;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
