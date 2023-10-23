@@ -1,0 +1,33 @@
+
+.steps-div {
+    display: flex;
+    border: solid;
+    border-radius: 5px;
+    background-color: lightslategray;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.steps-div-other-side {
+    position: relative;
+    left: 50%;
+}
+
+.steps-div > img {
+    width: max(200px, 50%);
+    height: 100%;
+}
+
+.gather-description-div {
+    align-items: center;
+    justify-content: center;
+    padding-left: max(1%, 10px);
+    padding-right: max(1%, 10px);
+}
+
+.h2-in-steps {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
