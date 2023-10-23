@@ -3,10 +3,11 @@
     display: flex;
     border: solid;
     border-radius: 5px;
-    background-color: lightslategray;
+    background-color: #F2884B;
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    margin: 2% 0%;
 }
 
 .steps-div-other-side {

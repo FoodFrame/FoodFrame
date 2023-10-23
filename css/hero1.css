@@ -45,6 +45,7 @@ h1 > span {
     display: flex;
     margin: auto;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
 .gather-snap-cook-slogan {
