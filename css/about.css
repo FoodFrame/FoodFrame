@@ -1,4 +1,4 @@
-.about-page-hero {
+.P1 {
     position: relative;
     left: 10%;
     right: 10%;;
@@ -8,36 +8,14 @@
     border-radius: 10px;
 }
 
-.about-page-grid {
+.about-1 {
     display: flex;
-    width: 45%;
-    padding-right: 2%;
+    width: 90%;
+    padding-right: 5%;
 }
-
-.about-page-grid-column1 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+.about-1 > img {
+    width: 100%;
     height: 100%;
-    height: max(300px, 20%);
-}
-
-.about-page-grid-column1 > img {
-    max-width: (100%, 200px);
-    max-height: (100%, 200px);
-    padding: 1%;
-    border-radius: 4%;
-}
-
-.about-page-grid-column2 > img {
-   padding: 1%;
-   border-radius: 4%;
-}
-
-.about-page-grid-column2 {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
 }
 
 .food-frame-about-vertical {
@@ -45,9 +23,7 @@
     width: 100%;
     flex-direction: column;
     padding: max(1%, 10px);
-    align-items: center;
     display: inline-block;
-    text-align: center;
 }
 
 .button-join-us {
@@ -68,5 +44,16 @@
     border-width: 2px;
     border-color: black;
     border-radius: 10%;
+<<<<<<< HEAD:about.css
     cursor: pointer;
+=======
+}
+
+.P2 {
+
+}
+
+.who-we-are{
+    
+>>>>>>> dd646179be4cc0244251108e1f5484bb61c943e5:css/about.css
 }
