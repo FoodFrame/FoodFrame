@@ -49,8 +49,17 @@ a {
     text-decoration: none;
 }
 
-a hover{
+a:active {
+  text-shadow: -1px -1px 1px #602400;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+a:hover{
     color: #602400;
+    text-decoration: underline;
+    text-shadow: 0px 0.5px 0.25px;
 }
 
 
