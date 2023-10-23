@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-span {
+h1 > span {
     color: #F2884B;
     padding-left: 10px;
 }
@@ -23,7 +23,7 @@ span {
     width: 100%;  
 }
 
-img {
+.illu-imgs {
     background-color: #F2884B;
     border-collapse: separate;
     border-radius: 15%;
@@ -34,7 +34,7 @@ img {
     margin-left: 4%;
 }
 
-button {
+.join-now {
     padding: 2% 15%;
     font-weight: bold;
     font-size: x-large;
@@ -45,9 +45,10 @@ button {
     display: flex;
     margin: auto;
     justify-content: center;
+    padding-bottom: 2%;
 }
 
-p {
+.gather-snap-cook-slogan {
     display: flex;
     justify-content: center;
     font-size: x-large;

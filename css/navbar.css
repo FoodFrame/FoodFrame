@@ -7,10 +7,11 @@
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 2%;
     border-radius: 8px;
 }
 
-ul {
+.navbar-content {
     background-color: #F2884B;
     display: flex;
     justify-content: space-between;
@@ -22,7 +23,7 @@ ul {
     border-radius: 8px;
 }
 
-li {
+.navbar-elements {
     list-style: none;
     white-space: nowrap;
     font-size: large;
@@ -30,6 +31,6 @@ li {
     padding-right: 2%;
 }
 
-h1 {
+.logo-placeholder {
     padding-left: 2%;
 }

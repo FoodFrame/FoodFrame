@@ -34,6 +34,7 @@
     border-width: 2px;
     border-color: black;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .button-donate {
@@ -43,6 +44,9 @@
     border-width: 2px;
     border-color: black;
     border-radius: 10%;
+<<<<<<< HEAD:about.css
+    cursor: pointer;
+=======
 }
 
 .P2 {
@@ -51,4 +55,5 @@
 
 .who-we-are{
     
+>>>>>>> dd646179be4cc0244251108e1f5484bb61c943e5:css/about.css
 }
