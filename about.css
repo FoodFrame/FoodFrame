@@ -58,6 +58,7 @@
     border-width: 2px;
     border-color: black;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .button-donate {
@@ -67,4 +68,5 @@
     border-width: 2px;
     border-color: black;
     border-radius: 10%;
+    cursor: pointer;
 }
