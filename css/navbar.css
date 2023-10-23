@@ -1,6 +1,7 @@
 
 .navbar-div {
     background-color: #F2884B;
+    border: solid;
     position: sticky;
     display: flex;
     justify-content: space-between;
@@ -30,6 +31,12 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+
+.navbar-elements  > a {
+  text-decoration: none;
+  color: black
+}
+
 
 .logo-placeholder {
     padding-left: 2%;
