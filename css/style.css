@@ -1,0 +1,52 @@
+body {
+	background-color: ghostwhite;
+}		/**Voici la palette de couleur couleurs : #602400, #F29849, #F2884B, #F2C0A2 **/
+
+.col1 {
+	color: white;
+	background-color: #602400;
+	border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+	padding: 100px;
+	margin-right: 1000px;
+}
+
+.col2 {
+	color: white;
+	background-color: #F29849;
+	border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+	padding: 100px;
+	margin-right: 1000px;
+}
+
+.col3 {
+	color: white;
+	background-color: #F2884B;
+	border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+	padding: 100px;
+	margin-right: 1000px;
+}
+
+.col4 {
+	color: white;
+	background-color: #F2C0A2;
+	border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+	padding: 100px;
+	margin-right: 1000px;
+}
+
+#logo{
+	width: 300px;
+}
+
+#logo_a{
+	width: 300px;
+}
+
+h1{
+	color: blue;
+}
+
+
+li{
+	color: dodgerblue;
+}
