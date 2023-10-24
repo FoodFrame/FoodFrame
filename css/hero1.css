@@ -4,6 +4,7 @@
     margin: auto;
     font-family: inherit;
     justify-content: center;
+    font-size: 250%;
 }
 
 h1 > span {

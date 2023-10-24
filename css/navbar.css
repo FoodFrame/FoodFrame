@@ -28,8 +28,7 @@
     list-style: none;
     white-space: nowrap;
     font-size: large;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 6% 2%;
 }
 
 .navbar-elements  > a {
@@ -40,4 +39,28 @@
 
 .logo-placeholder {
     padding-left: 2%;
+}
+
+.navbar-elements-hover {
+    list-style: none;
+    color: white;
+    white-space: nowrap;
+    font-size: large;
+    padding: 0% 2%;
+    border: solid white;
+    background-color: brown;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40%;
+    border-radius: 5%;
+}
+
+.navbar-elements-hover > a {
+   text-decoration: none;
+   color: white;
+   display: inline-block;
+   position: relative;
+   padding: 2em;
+   margin: -2em;
 }
