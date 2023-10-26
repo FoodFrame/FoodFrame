@@ -1,0 +1,66 @@
+
+.navbar-div {
+    background-color: #F2884B;
+    border: solid;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+.navbar-content {
+    background-color: #F2884B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 40%;
+    padding-left: max(20x, 1%);
+    padding-right: max(20px, 1%);
+    border-radius: 8px;
+}
+
+.navbar-elements {
+    list-style: none;
+    white-space: nowrap;
+    font-size: large;
+    padding: 6% 2%;
+}
+
+.navbar-elements  > a {
+  text-decoration: none;
+  color: black
+}
+
+
+.logo-placeholder {
+    padding-left: 2%;
+}
+
+.navbar-elements-hover {
+    list-style: none;
+    color: white;
+    white-space: nowrap;
+    font-size: large;
+    padding: 0% 2%;
+    border: solid white;
+    background-color: brown;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40%;
+    border-radius: 5%;
+}
+
+.navbar-elements-hover > a {
+   text-decoration: none;
+   color: white;
+   display: inline-block;
+   position: relative;
+   padding: 2em;
+   margin: -2em;
+}

@@ -1,0 +1,95 @@
+.P1 {
+    position: relative;
+    left: 10%;
+    right: 10%;;
+    align-self: center;
+    width: 80%;   
+    display: flex;
+    border-radius: 10px;
+}
+
+.photo-pro-1 {
+    position: absolute;
+    max-width: 31.50%;
+    max-height: 38%;
+    border-radius: 42% 0% 0% 0%;
+    top: 1.10%;
+    left: 1.00%;
+}
+
+.photo-pro-2 {
+    position: absolute;
+    max-width: 24.95%;
+    max-height: 33%;
+    border-radius: 0% 35% 0% 0%;
+    top: 24.10%;
+    left: 36.50%;
+}
+
+.photo-pro-3 {
+    position: absolute;
+    max-width: 23.50%;
+    max-height: 33%;
+    border-radius: 0% 0% 50% 0%;
+    top: 52.10%;
+    left: 65.55%;
+}
+
+.photo-pro-4 {
+    position: absolute;
+    max-width: 27.50%;
+    max-height: 33%;
+    border-radius: 0% 0% 0% 20%;
+    top: 45.10%;
+    left: 6.55%;
+}
+
+.photo-pro-5 {
+    position: absolute;
+    max-width: 22.50%;
+    max-height: 29.05%;
+    border-radius: 0% 0% 26% 0%;
+    top: 64.75%;
+    left: 37.55%;
+}
+
+.about-1 {
+    display: flex;
+    position: relative;
+    width: 90%;
+    padding-right: 5%;
+    z-index: -1;
+}
+.about-1 > img {
+    width: 100%;
+    height: 100%;
+}
+
+.food-frame-about-vertical {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: max(1%, 10px);
+    display: inline-block;
+}
+
+.button-join-us {
+    background-color: #602400;
+    padding: 2% 5%;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.button-donate {
+    background-color: #F8B474;
+    padding: 2% 5%;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10%;
+    cursor: pointer;
+}

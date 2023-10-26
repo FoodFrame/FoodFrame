@@ -1,0 +1,82 @@
+.foodframe-header {
+    padding-top: 1%;
+    display: flex;
+    margin: auto;
+    font-family: inherit;
+    justify-content: center;
+    font-size: 250%;
+}
+
+h1 > span {
+    color: #F2884B;
+    padding-left: 10px;
+}
+
+.hero-photos {
+    white-space: nowrap;
+}
+
+.styling-photos {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+}
+
+.illu-imgs {
+    position: relative;
+    background-color: #F2884B;
+    border-collapse: separate;
+    border-radius: 15%;
+    height: 20%;
+    width: 21%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.join-now {
+    position: relative;
+    padding: 2% 15%;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: transparent;
+    border-radius: 3%;
+    background-color: #F2884B;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.gather-snap-cook-slogan {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.background-img-hero1 {
+    position: relative;
+    border: solid;
+    border-radius: 2%;
+}
+
+.background-img-hero1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url("https://s3-alpha-sig.figma.com/img/2624/06f7/7492dc608fc7674e38451957bd6f87fb?Expires=1699228800&Signature=V6zIgVnxFTcnKc18umqkoxU-RIQigpDFt7y44XzXStv4wJxfgJO1kvo1r0Pi70R~s8npKzmvFP6g-4DOtJfrPa9apiRGQMY1bZIVomhijzKZIVjs8WNqR8d5etTCPLL0L2G3HAG2OF5H9fWmmZq1MJEW-BAi9fJ2YzQ5D7ddYYLNqw0hPFedS3R-6GrSAVpPpIbihxr4ibk6tCwGJGnklPr18wjtWFlIkZ0-9fc7jIwWuEFo22JXVOT~bJuAvinYcq946Sz0VoSRyc9daUnbUwQy3Y2o3a2UOfXnESfZQr0lerEb8k5C9If6QXauCRM6bP4f0nJP9q1JxRLFBjQWUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.20;
+}
