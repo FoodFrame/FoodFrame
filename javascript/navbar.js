@@ -1,5 +1,5 @@
 
-function changeNavbarElementColor(elementType) 
+function changeNavbarElementColor(elementType) //add a class to the list item in order to change its css
 {
     console.log('Yes!');
 
@@ -9,7 +9,8 @@ function changeNavbarElementColor(elementType)
     document.querySelector(`#${elementType}`).classList.remove('navbar-elements');
 }
 
-function changeNavbarNormal(elementType) {
+function changeNavbarNormal(elementType) //removes the class that was added with the changeNavbarElementColor() function
+{
     document.querySelector(`#${elementType}`).classList.add('navbar-elements');
 
     document.querySelector(`#${elementType}`).classList.remove('navbar-elements-hover');
