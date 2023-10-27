@@ -9,26 +9,43 @@
 	</head>
 
 	<body>
-		<div class="navbar-div">
-            <h1 class="logo-placeholder">LOGO</h1>
+        <div class="navbar-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
             <ul class="navbar-content">
+<<<<<<< HEAD
                 <li class="navbar-elements">Home</li>
                 <li class="navbar-elements"><a href="install now.html">Install Now</a></li>
                 <li class="navbar-elements"><a href="contact.html">Contact</a></li>
                 <li class="navbar-elements"><a href="about.html">About</a></li>
+=======
+                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
+>>>>>>> d112a80e0a82535643148e87e70471e7f51126bb
                 <li class="navbar-elements">FR</li>
             </ul>
         </div>
-		<h1 class="foodframe-header">FOOD<span>FRAME</span></h1>
-		<div class="hero-photos">
-			<div class="styling-photos">
-				<img class="illu-imgs" src="../images-foodframe/illu-1.png" />
-				<img class="illu-imgs" src="../images-foodframe/illu-2.png" />
-				<img class="illu-imgs" src="../images-foodframe/illu-3.png" />
-			</div>
-		</div>
-		<p class="gather-snap-cook-slogan"> Gather, Snap and Cook. It's that easy!</p>
-		<button class="join-now">Join Now!</button>
+        <div class="background-img-hero1">
+            <h1 class="foodframe-header">FOOD<span>FRAME</span></h1>
+            <div class="hero-photos">
+                <div class="styling-photos">
+                    <img class="illu-imgs" src="../images-foodframe/illu-1.png" />
+                    <img class="illu-imgs" src="../images-foodframe/illu-2.png" />
+                    <img class="illu-imgs" src="../images-foodframe/illu-3.png" />
+                </div>
+            </div>
+            <p class="gather-snap-cook-slogan"> Gather, Snap and Cook. It's that easy!</p>
+            <button class="join-now" onclick=" location.href= './install now.html';">Join Now!</button>
+        </div>
 		<div class="steps-div">
             <img src="../images-foodframe/3-steps-gather-img.png"/>
             <div class="gather-description-div">
@@ -56,6 +73,9 @@
                 </p>
             </div>
         </div>
+
+        <script src="../javascript/navbar.js"></script>
+        <script src="../javascript/homepage.js"></script>
 	</body>
 </html> 
 
