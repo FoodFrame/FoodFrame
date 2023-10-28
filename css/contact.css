@@ -3,9 +3,9 @@
     position: relative;
     background-color: lightblue;
     align-self: center;
-    left: 20%;
-    width: 60%;
-    right: 20%;
+    left: 10%;
+    width: 80%;
+    right: 10%;
     height: 60%;
 }
 
@@ -68,47 +68,40 @@ input {
     align-items: center;
 }
 
-.member-speak-to-row-1 {
-    background-color: white;
+.member-speak-to-column-1 {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    width: 33.3%;
+    background-color: lightgoldenrodyellow;
 }
 
-.member-speak-to-row-1 > ul {
-   display: flex;
-   width: 100%;
-   justify-content: space-around;
-   background-color: lightcyan;
-}
-
-.member-speak-to-row-2 {
-    background-color: white;
+.member-speak-to-column-2 {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    width: 33.3%;
+    background-color: lightsalmon;
 }
 
-.member-speak-to-row-2 > ul {
+.member-speak-to-column-3 {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    background-color: lightcyan;
- }
-
-.inline-span {
-    padding-right: 10%;
+    width: 33.3%;
+    background-color: lightslategray;
 }
 
-.designer {
-    margin-left: 2.50%;
+.contact-options-box {
+    display: flex;
+    background-color: beige;
 }
 
-.developper-1 {
-    margin-left: 19.5%;
-    margin-right: 4.0%;
+.on-top-general-manager {
+    padding-bottom: 30%;
 }
 
-.general-manager {
-    margin-left: 3.25%;
+.on-top-general-manager {
+    padding-bottom: 30%;
 }
+
+.on-top-designer {
+    padding-bottom: 30%;
+}
+
+
+
