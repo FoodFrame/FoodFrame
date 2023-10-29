@@ -95,7 +95,9 @@
 }
 
 
-.border {
-    border-left: 30px dotted #FFA500;
-  }
+.borderleft {
+    border-left: 25px solid #FFA500;
+}
   
+.borderup {border-top: 25px solid orange;
+}
