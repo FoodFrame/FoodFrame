@@ -16,7 +16,17 @@
     display: inline-block;
     padding-right: max(3%, 10px);
     background-color: #602400;
+    background-image: url("../images-foodframe/circle-contact.png");
+    background-repeat: no-repeat;
+    background-position: 90% 90%;
 }
+
+.contact-information > ul {
+    list-style: none;
+    padding-left: 7%;
+    margin: 0;
+}
+
 
 .contact-information > p {
    padding-left: 4%;
@@ -25,6 +35,27 @@
 
 .contact-information2 {
     margin-top: max(40px,5%);
+ }
+
+ .phone-logo {
+    background-image: url("../images-foodframe/phone-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 3em;
+ }
+
+ .email-logo {
+    background-image: url("../images-foodframe/email-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 3em;
+ }
+
+ .location-logo {
+    background-image: url("../images-foodframe/location-logo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 3em;
  }
  
 
@@ -121,18 +152,6 @@
     display: flex;
 }
 
-.on-top-general-manager {
-    padding-bottom: 41%;
-}
-
-.on-top-general-manager {
-    padding-bottom: 41%;
-}
-
-.on-top-designer {
-    padding-bottom: 41%;
-}
-
 .items-bottom {
     position: absolute;
     top: 70%;
@@ -165,4 +184,12 @@
     position: absolute;
     top: 82%;
     align-self: center;
+}
+
+.selection-circle {
+    list-style: none;
+    background-image: url("../images-foodframe/selection-circle.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 3em;
 }
