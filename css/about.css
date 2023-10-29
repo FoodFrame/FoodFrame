@@ -5,7 +5,7 @@
     align-self: center;
     width: 80%;   
     display: flex;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .photo-pro-1 {
@@ -96,6 +96,6 @@
 
 
 .border {
-    border-left: 30px dotted #FFA500; /* Adjust the width and color as needed */
+    border-left: 30px dotted #FFA500;
   }
   
