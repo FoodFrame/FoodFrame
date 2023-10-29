@@ -3,9 +3,9 @@
     position: relative;
     background-color: #602400;
     align-self: center;
-    left: 10%;
-    width: 80%;
-    right: 10%;
+    left: 7.5%;
+    width: 85%;
+    right: 7.5%;
     height: 60%;
 }
 
@@ -196,7 +196,7 @@
     list-style: none;
     background-image: url("../images-foodframe/selection-circle.png");
     background-repeat: no-repeat;
-    background-position: 0% 50%;
+    background-position: 0% 60%;
     padding-left: 3em;
 }
 
@@ -224,7 +224,7 @@ h1 > span {
 }
 
 .food-frame-contact {
-    padding-top: 2%;
+    padding-top: 7%;
     color: #602400;
     display: flex;
     align-items: center;

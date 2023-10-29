@@ -1,9 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../css/contact.css"></link>
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
+        <link rel="stylesheet" type="text/css" href="../css/footer-contact.css"></link>
     </head>
-    
     <body>
+        <div class="navbar-div contact-navbar-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="navbar-content">
+                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="navbar-elements">FR</li>
+            </ul>
+        </div>
         <h1 class="food-frame-contact">CONTACT <span> US</span></h1>
         <p class="questions-concerns">Any question or remarks? Just write us a message!</p>
         <div class="contact-us-hero">
@@ -33,20 +52,20 @@
                      <div class="contact-options-box">
                         <div class="member-speak-to-column-1">
                                 <ul class="greater-ul">
-                                    <li id = 'general-manager' class="contact-list-items on-top-general-manager selection-circle" onclick="checkCircleBox('general-manager')">General Manager</li>
-                                    <li id = 'developper-2' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('developper-2')">Developper 2</li>
+                                    <li id='general-manager' class="contact-list-items on-top-general-manager selection-circle" onclick="checkCircleBox('general-manager')">General Manager</li>
+                                    <li id='developper-2' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('developper-2')">Developper 2</li>
                                 </ul>
                             </div>
                             <div class="member-speak-to-column-2">
                                 <ul class="greater-ul">
-                                    <li id = 'designer' class="contact-list-items on-top-designer selection-circle" onclick="checkCircleBox('designer')">Designer</li>
-                                    <li id = 'community-manager' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('community-manager')">Community Manager</li>
+                                    <li id='designer' class="contact-list-items on-top-designer selection-circle" onclick="checkCircleBox('designer')">Designer</li>
+                                    <li id='community-manager' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('community-manager')">Community Manager</li>
                                 </ul>
                         </div>
                         <div class="member-speak-to-column-3">
                                 <ul class="greater-ul">
-                                    <li id = 'developper-1' class="contact-list-items on-top selection-circle" onclick="checkCircleBox('developper-1')">Developper 1</li>
-                                    <li id = 'no-preference' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('no-preference')">No Preference</li>
+                                    <li id='developper-1' class="contact-list-items on-top selection-circle" onclick="checkCircleBox('developper-1')">Developper 1</li>
+                                    <li id='no-preference' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('no-preference')">No Preference</li>
                                 </ul>
                         </div>
                      </div>
@@ -58,6 +77,38 @@
                 </div>
             </div>
         </div>
+        <div class="footer-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="footer-content">
+                <li class="footer-elements">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <hr width="100%">    
+            <div class="column">
+                <div class="credit">
+                    <p>© 2023 Food FRAME. All rights reserved</p>
+                </div>
+                <div class="languageForm">
+                    <form>
+                        <select id="langSelect">
+                            <option value="en">EN</option>
+                            <option value="fr">FR</option>
+                        </select>
+                    </form>
+                </div>    
+            </div>
+        </div>
     </body>
     <script src="../javascript/contact.js"></script>
+    <script src="../javascript/navbar.js"></script>
 </html>
