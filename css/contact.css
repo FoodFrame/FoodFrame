@@ -11,10 +11,22 @@
 
 .contact-information {
     display: flex;
+    color: white;
     width: 50%;
     display: inline-block;
     padding-right: max(3%, 10px);
+    background-color: #602400;
 }
+
+.contact-information > p {
+   padding-left: 4%;
+   font-size: xx-large;
+}
+
+.contact-information2 {
+    margin-top: max(40px,5%);
+ }
+ 
 
 .list-contact-information {
     padding-top: 2%;
@@ -23,34 +35,49 @@
 
 .write-a-message {
     position: relative;
+    background-color: white;
     width: 50%;
-    background-color: lightcoral;
     display: flex;
 }
 
 .messages-writer-stats1 {
     position: absolute;
-    background-color: lightgreen;
     padding-bottom: 2%;
+    left: 2%;
     width: 50%;
     height: 35%;
 }
 
-input {
-    max-width: 100%;
+.messages-writer-stats1 > input{
+    width: 85%;
+}
+
+.messages-writer-stats1 > p {
+    padding-bottom: 2%;
+}
+
+.messages-writer-stats2 > input{
+    width: 85%;
+}
+
+.messages-writer-stats1 > p {
+    margin-bottom: 2%;
+}
+
+.on-top-details-writer {
+    margin-bottom: 20%;
 }
 
 .messages-writer-stats1 > p, .messages-writer-stats2 > p {
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
     padding-top: 0;
     padding-bottom: 0;
 }
 
 .messages-writer-stats2 {
     position: absolute;
-    left: 50%;
-    background-color: lightpink;
+    left: 52%;
     padding-bottom: 2%;
     height: 35%;
     width: 50%;
@@ -59,49 +86,83 @@ input {
 .member-speak-to {
     display: flex;
     position: absolute;
-    background-color: lightgray;
     display: block;
     top: 30%; 
-    height: 50%;
+    height: 25%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
+.member-speak-to  > p {
+    padding-left: 2%;
+}
+
 .member-speak-to-column-1 {
+    position: relative;
     display: flex;
     width: 33.3%;
-    background-color: lightgoldenrodyellow;
+    padding-bottom: 2%;
 }
 
 .member-speak-to-column-2 {
     display: flex;
+    position: relative;
     width: 33.3%;
-    background-color: lightsalmon;
 }
 
 .member-speak-to-column-3 {
     display: flex;
+    position: relative;
     width: 33.3%;
-    background-color: lightslategray;
 }
 
 .contact-options-box {
     display: flex;
-    background-color: beige;
 }
 
 .on-top-general-manager {
-    padding-bottom: 30%;
+    padding-bottom: 41%;
 }
 
 .on-top-general-manager {
-    padding-bottom: 30%;
+    padding-bottom: 41%;
 }
 
 .on-top-designer {
-    padding-bottom: 30%;
+    padding-bottom: 41%;
 }
 
+.items-bottom {
+    position: absolute;
+    top: 70%;
+}
 
+.where-to-write-your-message {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 57%;
+    height: 40%;
+    width: 100%;
+}
 
+.where-to-write-your-message  > textarea {
+    align-self: center;
+}
+
+.where-to-write-your-message  > p {
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+.text-area-contact {
+    width: 80%;
+    height: 50%;
+}
+
+.send-message-button {
+    position: absolute;
+    top: 82%;
+    align-self: center;
+}
