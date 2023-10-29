@@ -93,3 +93,9 @@
     border-radius: 10%;
     cursor: pointer;
 }
+
+
+.border {
+    border-left: 30px dotted #FFA500; /* Adjust the width and color as needed */
+  }
+  
