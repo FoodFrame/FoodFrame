@@ -135,7 +135,6 @@
 
 .greater-ul > li, .selected-circle, .selection-circle{
     cursor: pointer;
-    margin-bottom: 20%;
 }
 
 .member-speak-to-column-2 {
@@ -168,28 +167,29 @@
     width: 100%;
 }
 
-.where-to-write-your-message  > textarea {
-    align-self: center;
-}
-
 .where-to-write-your-message  > p {
-    padding-bottom: 2%;
+    padding-top: 7%;
+    padding-bottom: 1%;
     padding-left: 2%;
 }
 
-.text-area-contact {
-    width: 80%;
-    height: 50%;
+.input-contact {
+    width: 93%;
+    margin-left: 2%;
+    align-self: left;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .send-message-button {
     position: absolute;
-    top: 87%;
+    top: 78%;
     align-self: center;
     border-radius: 10px;
     border: 1px solid #331300;
     background: #F8B474;    
     padding: 1% 5%;
+    cursor: pointer;
 }
 
 .selection-circle {
@@ -211,4 +211,40 @@
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
+}
+
+h1 > span {
+    color: #F29849;
+    padding-left: 1%;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 88.889% */
+}
+
+.food-frame-contact {
+    padding-top: 2%;
+    color: #602400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 88.889% */
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.questions-concerns {
+    color: #331300;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1%;
 }
