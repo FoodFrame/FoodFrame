@@ -1,21 +1,35 @@
-
 .steps-div {
+    padding-top: 8%;
+    padding-right: 8%;
+}
+
+.steps-div-left {
     display: flex;
-    border: solid;
-    border-radius: 5px;
-    background-color: #F2884B;
+    background: var(--1, #FBFBFB);
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-    margin: 2% 0%;
+    width: 55%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
-.steps-div-other-side {
-    position: relative;
-    left: 50%;
+.steps-div-right {
+    display: flex;
+    float: right;
+    background: var(--1, #FBFBFB);
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-.steps-div > img {
+.steps-div-left > img {
+    width: max(200px, 50%);
+    height: 100%;
+}
+
+.steps-div-right > img {
     width: max(200px, 50%);
     height: 100%;
 }
@@ -23,12 +37,23 @@
 .gather-description-div {
     align-items: center;
     justify-content: center;
-    padding-left: max(1%, 10px);
-    padding-right: max(1%, 10px);
+    overflow: hidden;
+    margin: 5%;
+}
+
+.h1-in-steps {
+    flex-shrink: 0;
+    color: #F29849;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-style: normal;
 }
 
 .h2-in-steps {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
 }

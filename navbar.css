@@ -1,6 +1,6 @@
 
 .navbar-div {
-    background-color: #F2884B;
+    background-color: #F8B474;
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
@@ -10,7 +10,7 @@
 }
 
 ul {
-    background-color: #F2884B;
+    background-color: #F8B474;
     display: flex;
     justify-content: space-around;
     align-items: center;
