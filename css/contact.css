@@ -133,8 +133,9 @@
     padding-bottom: 2%;
 }
 
-.greater-ul > li{
+.greater-ul > li, .selected-circle, .selection-circle{
     cursor: pointer;
+    margin-bottom: 20%;
 }
 
 .member-speak-to-column-2 {
@@ -173,7 +174,7 @@
 
 .where-to-write-your-message  > p {
     padding-bottom: 2%;
-    padding-left: 10%;
+    padding-left: 2%;
 }
 
 .text-area-contact {
@@ -183,8 +184,12 @@
 
 .send-message-button {
     position: absolute;
-    top: 82%;
+    top: 87%;
     align-self: center;
+    border-radius: 10px;
+    border: 1px solid #331300;
+    background: #F8B474;    
+    padding: 1% 5%;
 }
 
 .selection-circle {
@@ -200,5 +205,10 @@
     background-image: url("../images-foodframe/selected-circle\ \(1\).png");
     background-repeat: no-repeat;
     background-position: 0% 50%;
-    padding-left: 3em;
+}
+
+.input-boxes {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
 }
