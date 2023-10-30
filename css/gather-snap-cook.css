@@ -1,3 +1,8 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .steps-div {
     padding-top: 8%;
     padding-right: 8%;

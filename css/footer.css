@@ -1,3 +1,8 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .footer-div {
     background-color: #F8B474;
     display: flex;

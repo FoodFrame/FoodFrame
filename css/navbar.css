@@ -1,3 +1,8 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .navbar-div {
     background-color: #F8B474;
     position: fixed;

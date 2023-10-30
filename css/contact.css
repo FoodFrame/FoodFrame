@@ -1,3 +1,8 @@
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .contact-us-hero {
     display: flex;
     position: relative;
