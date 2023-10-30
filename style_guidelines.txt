@@ -1,6 +1,40 @@
 The team has a style guideline in style_guidelines.txt.
 (done)
 
+Overall Look and Feel of Roomie
+===============================
+
+- Bright and calm.
+- Clean and slimplistic
+- Fluid
+- Easy and intuitive navigation
+
+
+Colours
+========
+
+
+Iconography
+===========
+We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
+
+
+Typography
+==========
+We will be using Roboto from Google Fonts.
+
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+
+Buttons
+=======
+
+
+
+
 The guideline specifies a color theme.
 (in process)
 
