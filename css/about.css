@@ -7,6 +7,7 @@
     display: flex;
     border-radius: 15px;
     padding-bottom: 3%;
+    top: 100px;
 }
 
 .photo-pro-1 {
@@ -103,6 +104,7 @@
     margin: auto;
     border-radius: 10px;
     margin-bottom: 3%;
+    margin-top: 100px;
 }
 
 .column1-row-1 {
