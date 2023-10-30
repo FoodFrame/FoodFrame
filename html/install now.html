@@ -2,9 +2,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/install-now.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
+    <link rel="stylesheet" type="text/css" href="../css/footer-contact.css"></link>
     <title> Install Now Page </title>
 </head>
+
 <body>
+    <div class="navbar-div contact-navbar-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="navbar-content">
+                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="navbar-elements">FR</li>
+            </ul>
+    </div>
+
     <header> 
         <h1 class="header"> Install Now Our Amazing Product </h1>
     </header>
@@ -51,5 +73,37 @@
             </main>
         </div>
     </div>
+
+    <div class="footer-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="footer-content">
+                <li class="footer-elements">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <hr width="100%">    
+            <div class="column">
+                <div class="credit">
+                    <p>© 2023 Food FRAME. All rights reserved</p>
+                </div>
+                <div class="languageForm">
+                    <form>
+                        <select id="langSelect">
+                            <option value="en">EN</option>
+                            <option value="fr">FR</option>
+                        </select>
+                    </form>
+                </div>    
+            </div>
+        </div>
 </body>
 </html>
