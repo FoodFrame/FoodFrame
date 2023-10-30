@@ -1,1 +1,30 @@
-style_guidelines.txt
+The team has a style guideline in style_guidelines.txt.
+
+
+The guideline specifies a color theme.
+
+
+The guideline talks about typography.
+
+
+The guideline is reflected in the website design.
+
+
+The guideline is reasonably detailed.
+
+
+CSS has begn written for the website.
+
+
+JavaScript has been written for the website
+
+
+Fonts, headings, menus and logos were styled.
+
+
+The CSS and JavaScript submission are well-done.
+
+
+Every team member committed something.
+
+
