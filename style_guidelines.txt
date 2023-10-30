@@ -47,8 +47,19 @@ These are our color swatches:
 - #8D63CC
 
 
-The guideline talks about typography.
-(in process)
+Typography ( tweek it need changes)
+==========
+We will be using Roboto from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be flat designed using the chosen colors outlined above.
+
+
 
 The guideline is reflected in the website design.
 (in process)
