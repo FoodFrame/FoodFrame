@@ -1,11 +1,11 @@
 The team has a style guideline in style_guidelines.txt.
 (done)
 
-Overall Look and Feel of Roomie
+Overall Look and Feel of FoodFrame
 ===============================
 
 - Bright and calm.
-- Clean and slimplistic
+- Clean and simplistic
 - Fluid
 - Easy and intuitive navigation
 
@@ -36,30 +36,19 @@ We won't have simple anchor tag in our website. They will be embedded in list it
 
 Buttons
 =======
-Our buttons will have reasonably strong border-radius intensity and will either have a shade of brown or orange (matching the colours of our website)
+Our buttons will have reasonably strong border-radius intensity and their colour will either be a shade of brown or orange (matching the colours of our website). They will also be 2D like our icons. This will again add to the clean and simplistic look of our website.
 
 
-Typography ( tweek it need changes)
-==========
-We will be using Roboto from Google Fonts.
-
-Links
-=====
-Links will not be underlined and should change color when a user hovers over it.
-
-Buttons
-=======
-Buttons will be flat designed using the chosen colors outlined above.
-
-
+The guideline talks about typography.
+(done)
 
 The guideline is reflected in the website design.
-(in process)
+(done)
 
 The guideline is reasonably detailed.
-(in process)
+(done)
 
-CSS has begn written for the website.
+CSS has been written for the website.
 (done)
 
 JavaScript has been written for the website
@@ -73,4 +62,3 @@ The CSS and JavaScript submission are well-done.
 
 Every team member committed something.
 (done)
-
