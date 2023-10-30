@@ -92,7 +92,7 @@
 }
 
 .app_logo_2:active {
-  text-shadow: -1px -1px 1px #602400;
+  text-shadow: -0.1px -0.1px 0.1px #602400;
   position: relative;
   top: 1px;
   left: 1px;
@@ -101,13 +101,12 @@
 .download_button {
     display: inline-flex;
     align-items: center;
-    background-color: black; 
+    background-color: black;
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 3px;
+    border-radius: 0px;
 }
-
 
 
 .download_button img {
