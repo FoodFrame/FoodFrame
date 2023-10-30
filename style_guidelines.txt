@@ -35,8 +35,17 @@ Buttons
 
 
 
-The guideline specifies a color theme.
-(in process)
+Colours (the exmaple we need to change the stuff)
+========
+For Roomie, colours expose our personality to the customers and represent that we are calm and pleasing.
+These are our color swatches:
+
+- #583E7F
+- #DEC9FF
+- #B07CFF
+- #6F647F
+- #8D63CC
+
 
 The guideline talks about typography.
 (in process)
