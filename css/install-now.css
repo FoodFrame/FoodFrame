@@ -11,6 +11,8 @@ body{
   max-width: 1920px;
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 150px;
+  top: 100px;
   height: 500px;
   background-color: #f8b474;
 }
