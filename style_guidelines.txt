@@ -12,39 +12,31 @@ Overall Look and Feel of Roomie
 
 Colours
 ========
+For FoodFrame, we decided to go with light orange and brown as our main colours. This will give our website an elegant contrast and a clean and professional look. These colours will also contribute to the aesthetic feel of our organization's webiste:
 
+- #F29849
+- #602400
+- #F8B474
+- #3F1903
 
 Iconography
 ===========
-We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
+Our icons will be for the very most part in 2D. We decided to go for a simple, clean and elegant design for our website and thus, flat icons will be best for this look. They will also have a neutral color like black or white.
 
 
 Typography
 ==========
-We will be using Roboto from Google Fonts.
+We will be using Roboto from Google Fonts. We found that it matched the aesthetic for our website design.
 
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+We won't have simple anchor tag in our website. They will be embedded in list items that we create in the navbar and in the body of our website pages. This will allow us to give the website a more professional look.
 
 
 Buttons
 =======
-
-
-
-
-Colours (the exmaple we need to change the stuff)
-========
-For Roomie, colours expose our personality to the customers and represent that we are calm and pleasing.
-These are our color swatches:
-
-- #583E7F
-- #DEC9FF
-- #B07CFF
-- #6F647F
-- #8D63CC
+Our buttons will have reasonably strong border-radius intensity and will either have a shade of brown or orange (matching the colours of our website)
 
 
 The guideline talks about typography.
