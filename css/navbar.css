@@ -1,5 +1,7 @@
 body{
   -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -27,7 +29,7 @@ body{
     color: #3F1903;
     text-align: center;
     align-items: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 100%;
     letter-spacing: 3.5px;
@@ -36,10 +38,8 @@ body{
 }
 
 .navbar-elements-hover {
-    font-family: Roboto;
     list-style: none;
     color: #3F1903;
-    font-size: large;
     padding: 0.5% 3% 0.5% 3%;
     border: 1px solid #3F1903;
     border-left: none;
@@ -49,6 +49,7 @@ body{
     text-align: center;
     cursor: pointer;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
