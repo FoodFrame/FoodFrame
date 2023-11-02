@@ -1,6 +1,7 @@
 body{
   -webkit-font-smoothing: antialiased;
   margin: 0;
+  padding: 0;
 }
 
 
@@ -13,7 +14,7 @@ body{
     align-items: center;
     width: 100%;
     height: 70px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-content {
@@ -26,9 +27,10 @@ body{
 
 .navbar-elements > a {
     color: #3F1903;
+<<<<<<< HEAD
     text-align: center;
     align-items: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 100%;
     letter-spacing: 3.5px;
@@ -37,39 +39,64 @@ body{
 }
 
 .navbar-elements-hover {
-    font-family: Roboto;
     list-style: none;
     color: #3F1903;
-    font-size: large;
     padding: 0.5% 3% 0.5% 3%;
     border: 1px solid #3F1903;
     border-left: none;
     border-right: none;
+=======
+    font-size: large;
+    padding: 0.5% 0% 0.5% 0%;
+>>>>>>> 60beae7ed94cac7ff401cdd5520c1b4b340713f6
     display: flex;
     align-items: center;
     text-align: center;
     cursor: pointer;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
-    letter-spacing: 3.4px;
+    letter-spacing: 3.0px;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-.navbar-elements-hover > a {
-    align-items: center;
-    text-decoration: none;
-    color: #3F1903;
-    display: inline-block;
-    position: relative;
-}
-
-.food-frame-logo {
-    align-items: center;
-    position: relative;
-    display: flex;
-    height: 90%;
-    padding-left: 2%;
-}
+  }
+  
+  .navbar-elements-hover {
+      font-family: Roboto;
+      list-style: none;
+      color: #3F1903;
+      font-size: large;
+      padding: 0.5% 0% 0.5% 0%;
+      border: 1px solid #3F1903;
+      border-left: none;
+      border-right: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 3.0px;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+  
+  .navbar-elements-hover > a {
+      align-items: center;
+      text-decoration: none;
+      color: #3F1903;
+      display: inline-block;
+      position: relative;
+  }
+  
+  .food-frame-logo {
+      align-items: center;
+      position: relative;
+      display: flex;
+      height: 90%;
+      padding-left: 2%;
+  }
