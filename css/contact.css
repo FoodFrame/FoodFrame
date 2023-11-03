@@ -8,91 +8,113 @@ body{
 .contact-us-hero {
     display: flex;
     position: relative;
-    background-color: #602400;
+    background: linear-gradient(180deg, #602400 0%, #331300 100%);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     align-self: center;
-    left: 7.5%;
-    width: 85%;
-    right: 7.5%;
-    height: 60%;
+    width: 75%;
+    height: 65%;
+    margin-left: 12%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+    margin-bottom: 130px;
 }
 
 .contact-information {
     display: flex;
     color: white;
-    width: 50%;
+    font-size: 27px;
+    font-weight: 500;
+    width: 45%;
     display: inline-block;
     padding-right: max(3%, 10px);
     background-color: #602400;
     background: url("../images-foodframe/circle-contact.png") 90% 90% no-repeat, url("../images-foodframe/big-circle-contact.png") 100% 100% no-repeat;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .contact-information > ul {
     list-style: none;
     padding-left: 7%;
-    margin: 0;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 .contact-information > p {
    padding-left: 4%;
-   font-size: xx-large;
 }
 
 .contact-information2 {
     margin-top: max(40px,5%);
- }
+}
 
- .phone-logo {
+.phone-logo {
     background-image: url("../images-foodframe/phone-logo.png");
     background-repeat: no-repeat;
     background-position: 0% 50%;
     padding-left: 3em;
- }
+}
 
- .email-logo {
+.email-logo {
     background-image: url("../images-foodframe/email-logo.png");
     background-repeat: no-repeat;
     background-position: 0% 50%;
     padding-left: 3em;
- }
+}
 
- .location-logo {
+.location-logo {
     background-image: url("../images-foodframe/location-logo.png");
     background-repeat: no-repeat;
     background-position: 0% 50%;
     padding-left: 3em;
- }
- 
+}
 
 .list-contact-information {
     padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 .write-a-message {
     position: relative;
     background-color: white;
-    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 70%;
     display: flex;
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 23px;
+    padding-top: 12px;
 }
+
 
 .messages-writer-stats1 {
     position: absolute;
-    padding-bottom: 2%;
-    left: 2%;
     width: 50%;
-    height: 35%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
 }
 
 .messages-writer-stats1 > input{
     width: 85%;
+    margin-bottom: 15px;
 }
 
 .messages-writer-stats1 > p {
-    padding-bottom: 2%;
+    margin: 0%;
 }
 
 .messages-writer-stats2 > input{
     width: 85%;
+    margin-bottom: 15px;
 }
 
 .messages-writer-stats1 > p {
@@ -113,17 +135,16 @@ body{
 .messages-writer-stats2 {
     position: absolute;
     left: 52%;
-    padding-bottom: 2%;
-    height: 35%;
     width: 50%;
+    padding-right: 15px;
+    padding-top: 10px;
 }
 
 .member-speak-to {
     display: flex;
     position: absolute;
     display: block;
-    top: 30%; 
-    height: 25%;
+    top: 40%; 
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -136,7 +157,7 @@ body{
 .member-speak-to-column-1 {
     position: relative;
     display: flex;
-    width: 33.3%;
+    width: 32%;
     padding-bottom: 2%;
 }
 
@@ -147,13 +168,13 @@ body{
 .member-speak-to-column-2 {
     display: flex;
     position: relative;
-    width: 33.3%;
+    width: 32%;
 }
 
 .member-speak-to-column-3 {
     display: flex;
     position: relative;
-    width: 33.3%;
+    width: 32%;
 }
 
 .contact-options-box {
@@ -169,7 +190,7 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 57%;
+    top: 55%;
     height: 40%;
     width: 100%;
 }
@@ -181,22 +202,46 @@ body{
 }
 
 .input-contact {
-    width: 93%;
+    width: 90%;
     margin-left: 2%;
     align-self: left;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #602400;
+    overflow-y: hidden;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+}
+
+.input-contact::placeholder {
+    color: rgba(96, 36, 0, 0.40);
+}
+
+.send-message {
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 .send-message-button {
-    position: absolute;
-    top: 78%;
-    align-self: center;
-    border-radius: 10px;
-    border: 1px solid #331300;
-    background: #F8B474;    
-    padding: 1% 5%;
+    float: right;
+    top: 75%;
     cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #331300;
+    background: #F8B474;
+    display: flex;
+    width: 135px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;   
+    color: #331300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .selection-circle {
@@ -228,30 +273,31 @@ h1 > span {
     font-size: 72px;
     font-weight: 700;
     line-height: 64px; /* 88.889% */
+    padding-left: 2.5%;
 }
 
 .food-frame-contact {
-    padding-top: 7%;
+    padding-top: 12%;
     color: #602400;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 300;
     line-height: 64px; /* 88.889% */
-    padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: -12px;
 }
 
 .questions-concerns {
     color: #331300;
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
+    letter-spacing: -0.6px;
     padding-bottom: 1%;
 }

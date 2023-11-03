@@ -2,7 +2,8 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../css/about.css"></link> 
         <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
-        <link rel="stylesheet" type="text/css" href="../css/footer-contact.css"></link>
+        <link rel="stylesheet" type="text/css" href="../css/footer.css"></link>
+        <link rel="stylesheet" type="text/css" href="../css/langage_button.css"></link>
         <script src="../javascript/navbar.js"></script>
     </head>
     <body>
@@ -15,14 +16,21 @@
                 <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
                     <a href="install now.html">Install Now</a>
                 </li>
-                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
-                    <a href="contact.html">Contact</a>
-                </li>
                 <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
                     <a href="about.html">About</a>
                 </li>
-                <li class="navbar-elements">FR</li>
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
+            <div class="langage">
+                <div class="switch">
+                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                    <label for="language-toggle"></label>
+                    <span class="on">EN</span>
+                    <span class="off">FR</span>
+                </div>
+            </div>
         </div>
         <div class="P1">
             <div class="about-1">
@@ -96,14 +104,12 @@
                 <div class="credit">
                     <p>© 2023 Food FRAME. All rights reserved</p>
                 </div>
-                <div class="languageForm">
-                    <form>
-                        <select id="langSelect">
-                            <option value="en">EN</option>
-                            <option value="fr">FR</option>
-                        </select>
-                    </form>
-                </div>    
+                <div class="switch">
+                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                    <label for="language-toggle"></label>
+                    <span class="on">EN</span>
+                    <span class="off">FR</span>
+                </div>
             </div>
         </div>
     </body>
