@@ -10,43 +10,38 @@
         <!--
             Starting image slider
         -->
-            <div class="slider">
+            <div class="slider1">
                 <div class="slides">
                 <!---Input Boxes for each image-->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    <input type="radio" name="radio-btn" id="radio9">
+                    <input type="radio" name="radio-btn" id="radio10">
 
                 <!---Divs for each image-->   
                 <div class="slide first">
-                    <p class="team-names">Anthony Alam</p>
-                    <p class="description-for-team">WHO I AM: </p>
+                    <p class="team-names">ANTHONY ALAM</p>
                     <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
                     <span class="role-span">ROLE</span>
                 </div>
                 <div class="slide second">
-                    <p class="team-names">Bradley-Hans Desmornes</p>
-                    <p class="description-for-team">WHO I AM: </p>
+                    <p class="team-names">BRADLEY-HANS DESMORNES</p>
                     <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
                     <span class="role-span">ROLE</span>
                 </div>
                 <div class="slide third">
-                    <p class="team-names">Alexander Lungu</p>
-                    <p class="description-for-team">WHO I AM: </p>
+                    <p class="team-names">ALEXANDER LUNGU</p>
                     <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
                     <span class="role-span">ROLE</span>
                 </div>
                 <div class="slide fourth">
-                    <p class="team-names">Gabriel Turgeon</p>
-                    <p class="description-for-team">WHO I AM: </p>
+                    <p class="team-names">GABRIEL TURGEON</p>
                     <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
                     <span class="role-span">ROLE</span>
                 </div>
                 <div class="slide fifth">
-                    <p class="team-names">Salma Sajid</p>
-                    <p class="description-for-team">WHO I AM: </p>
+                    <p class="team-names">SALMA SAJID</p>
                     <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
                     <span class="role-span">ROLE</span>
                 </div>
@@ -63,11 +58,11 @@
                 </div>
                 <!--Manual navigation part-->
                 <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                    <label for="radio9" class="manual-btn"></label>
+                    <label for="radio10" class="manual-btn"></label>
                 </div>
             </div>
         </div>
@@ -78,13 +73,12 @@
         -->
 
         <script type="text/javascript">
-        imgCount = 5;
-        let counter = 1;
+        let counter1 = 6;
         setInterval(function() {
-            document.getElementById('radio' + counter).checked = true;
-            counter++;
-            if (counter > imgCount) {
-            counter = 1;
+            document.getElementById('radio' + counter1).checked = true;
+            counter1++;
+            if (counter1 > 10) {
+            counter1 = 6;
             } 
         }, 5000)
         ;
