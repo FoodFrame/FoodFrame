@@ -16,12 +16,10 @@ function changeNavbarNormal(elementType) //removes the class that was added with
 }
 
 function resetNavOnResize() {
-    console.log('Window resized');
     const navToggle = document.querySelector('.nav_dropdown')
 
 
     if (navToggle && navToggle.checked && window.innerWidth > 730) {
-        console.log("Unchecking nav toggle");
         navToggle.checked = false;  
     }
 }
