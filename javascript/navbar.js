@@ -20,10 +20,9 @@ function resetNAvOnResize() {
     const navToggle = document.querySelector('.nav_dropdown')
 
 
-    if (navToggle && navToggle.checked) {
-        if (window.innerWidth > 730) {
-            navToggle.checked = false;
-        }
+    if (navToggle && navToggle.checked && window.innerWidth > 730) {
+        console.log("Unchecking nav toggle");
+        navToggle.checked = false;  
     }
 }
 
