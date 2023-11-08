@@ -1,27 +1,39 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../css/langage_button.css"></link>
-        <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
-    </head>
-    <body>
-        <div class="navbar-div">
-            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+<div class="navbar-container">
+    <header>
+        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
+
+        <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+            
+        <nav>
             <ul class="navbar-content">
                 <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
                     <a href="home.html">Home</a>
                 </li>
+
                 <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
                     <a href="install now.html">Install Now</a>
                 </li>
+
                 <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
                     <a href="contact.html">Contact</a>
                 </li>
+
                 <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
                     <a href="about.html">About</a>
                 </li>
-            </ul>
-        </div>
 
-        <script src="../javascript/navbar.js"></script>
-    </body>
-</html>
+                <li class="navbar-elements"> <a>FR</a>
+                </li>
+            </ul>
+        </nav>
+
+        <label for="nav_dropdown" class="nav_dropdown_label"> 
+            <span></span>
+        </label>
+
+    </header>
+    
+</div>   
+
+
+
