@@ -18,6 +18,8 @@ body{
     border-radius: 15px;
     padding-bottom: 3%;
     top: 100px;
+    background-color: white;
+    z-index: -1;
 }
 
 .photo-pro-1 {
@@ -156,13 +158,16 @@ body{
 }
 
 .P3 {
-    padding: 0% 0%;
+    padding: 5% 0%;
     margin: 0% 0%;
     justify-content: space-between;
     display: flex;
     background-color: #F29849;
     flex-direction: column;
-    padding-top: 100px;
+}
+
+.image-background-div {
+   
 }
 
 /*.who-we-are,
