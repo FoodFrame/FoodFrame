@@ -16,6 +16,7 @@ function changeNavbarNormal(elementType) //removes the class that was added with
 }
 
 function resetNAvOnResize() {
+    console.log('Window resized');
     const navToggle = document.querySelector('.nav_dropdown')
 
 
