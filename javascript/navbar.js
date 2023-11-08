@@ -26,6 +26,6 @@ function resetNAvOnResize() {
     }
 }
 
-window.addEventListener('rezise', resetNAvOnResize);
+window.addEventListener('rezize', resetNAvOnResize);
 
 resetNAvOnResize();
