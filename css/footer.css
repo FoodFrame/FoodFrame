@@ -29,11 +29,13 @@ body {
 }
 
 .footer-content {
+    margin-left: 0;
+    padding-left: 0;
+    width: 50%;
     display: flex;
     list-style: none;    
     justify-content: space-around;
     align-items: center;
-    width: 45%;
 }
 
 .footer-elements > a {
