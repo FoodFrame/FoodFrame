@@ -15,17 +15,17 @@ function changeNavbarNormal(elementType) //removes the class that was added with
     document.querySelector(`#${elementType}`).classList.remove('navbar-elements-hover');
 }
 
-function resetNAvOnResize() {
-    const navToggle = document.querySelector('.nav_dropdown')
+
+function resetNavOnResize() {
+    const navToggle = document.querySelector('#nav_dropdown')
 
 
-    if (navToggle && navToggle.checked) {
-        if (window.innerWidth > 730) {
-            navToggle.checked = false;
-        }
+    if (navToggle && navToggle.checked && window.innerWidth > 730) {
+        navToggle.checked = false;  
     }
 }
 
-window.addEventListener('rezise', resetNAvOnResize);
+window.addEventListener('resize', resetNavOnResize);
 
-resetNAvOnResize();
+resetNavOnResize();
+
