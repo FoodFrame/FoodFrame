@@ -3,6 +3,21 @@ body{
   margin: 0;
 }
 
+#opacity_nav{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top:0; 
+    left:0; 
+    background: rgba(111, 111, 111, 0.22); 
+    opacity: 0; 
+    visibility: hidden;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    z-index: 10;
+    pointer-events: none;
+
+}
+
 :root {
     --background: rgb(248,180,116);
 }
@@ -26,6 +41,7 @@ header{
     width: 100%;  
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif;
+    z-index: 30;
 
 
 }
@@ -37,6 +53,7 @@ header{
 
 .nav_dropdown{
     display: none;
+    transition: opacity 0.3s linear 2s;
 }
 
 .nav_dropdown_label {
@@ -88,11 +105,13 @@ nav{
     transform-origin: left;
     transition: transform 400ms ease-in-out;
     height: 900px;
+    z-index: 20;
 }
 
 
 nav ul{
     margin: 0;
+    margin-top: 10px;
     padding: 0;
     list-style: none;
     font-size: 15px;
@@ -143,6 +162,14 @@ nav a{
 .nav_dropdown:checked ~ nav span{
     opacity: 0;
 }
+
+.nav_dropdown:checked + #opacity_nav{
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 0.5s linear; /* Apply the opacity transition immediately when showing */
+
+}
+
 
 
 

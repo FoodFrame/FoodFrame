@@ -15,8 +15,9 @@ function changeNavbarNormal(elementType) //removes the class that was added with
     document.querySelector(`#${elementType}`).classList.remove('navbar-elements-hover');
 }
 
+
 function resetNavOnResize() {
-    const navToggle = document.querySelector('.nav_dropdown')
+    const navToggle = document.querySelector('#nav_dropdown')
 
 
     if (navToggle && navToggle.checked && window.innerWidth > 730) {
@@ -27,3 +28,4 @@ function resetNavOnResize() {
 window.addEventListener('resize', resetNavOnResize);
 
 resetNavOnResize();
+
