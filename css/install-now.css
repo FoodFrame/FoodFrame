@@ -15,7 +15,7 @@ body{
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 300px;
-  top: 180px;
+  top: 170px;
   height: 510px;
   background-color: #f8b474;
 }
@@ -113,16 +113,19 @@ body{
 }
 
 .app_logo_1{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
   text-decoration: none;
-  margin-left: 150px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 100%;
 }
 
 .app_logo_2{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   margin-right: 140px;
+  border-radius: 10px;
 }
 
 .app_logo_1:active {
@@ -141,16 +144,16 @@ body{
 
 .download_button {
   display: inline-flex;
-  padding: 10px 15px;
   border: none;
   padding: 0;
   background: none;
   cursor: pointer;
+  width: 150px;
 }
 
 
 .download_button img {
-  width: 100%; 
+  width: 100%;
 }
 
 .download_button span {
@@ -164,6 +167,34 @@ body{
   font-style: normal;
 }
 
+.transition{
+  color: #602400;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 25%;
+}
+
+.paid-version-block {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 180px;
+  height: 510px;
+  background: #FFF;
+  box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.05);
+  color: #331300;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 
 
