@@ -153,6 +153,16 @@ body{
     padding: 0% 2%;
 }
 
+.P3 {
+    padding: 0% 0%;
+    margin: 0% 0%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F8B474;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
 /*.who-we-are,
 .more-about-us,
 .description-1 {

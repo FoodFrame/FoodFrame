@@ -6,6 +6,7 @@ body{
 
 
 .navbar-div {
+    position: relative;
     background-color: #F8B474;
     position: fixed;
     display: flex;
@@ -18,12 +19,17 @@ body{
 }
 
 .navbar-content {
+    position: absolute;
     display: flex;
-    list-style: none;    
-    justify-content: space-around;
+    list-style: none;   
+    justify-content: space-between; 
     align-items: center;
-    width: 50%;
-    margin-left: 350px;
+    width: 80%;
+    right: 0;
+}
+
+.navbar-content:last-child {
+    padding-right: 3%;
 }
 
 .navbar-elements > a {
@@ -36,6 +42,11 @@ body{
     letter-spacing: 3.5px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+
+.navbar-elements > li {
+    padding: 0% 4%;
 }
 
 .navbar-elements-hover {
