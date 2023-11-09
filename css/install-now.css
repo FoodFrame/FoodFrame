@@ -196,6 +196,37 @@ body{
   line-height: normal;
 }
 
+@media only screen and (max-width: 1040px) {
+  .shrink-delete {
+    display: none;
+  }
+
+  ._2_buttons {
+    flex-direction: column;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app_logo_1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-rectangle {
+    left: 1.25%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+}
+
 
 
 
