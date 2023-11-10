@@ -68,7 +68,6 @@ body{
   line-height: normal;
   font-size: 50px;
   display: inline;
-  margin-left: 25px;
 }
 
 .company-3 {
@@ -151,7 +150,6 @@ body{
   width: 150px;
 }
 
-
 .download_button img {
   width: 100%;
 }
@@ -202,7 +200,6 @@ body{
   }
 
   ._2_buttons {
-    flex-direction: column;
     background-color: lightblue;
     justify-content: center;
     align-items: center;
@@ -213,8 +210,16 @@ body{
     margin: 0;
   }
 
+  .app_logo_2 {
+    padding: 0;
+    margin: 0;
+  }
+
   .text-rectangle {
-    left: 1.25%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     position: relative;
     padding: 0;
     margin: 0;
@@ -222,9 +227,28 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100%;
+  }
+
+  .install-information {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8%;
   }
   
+  .mobile {
+    display: none;
+  }
 
+  .separator {
+    padding-bottom: 9%;
+  }
+
+  .encounter-issues {
+    padding-top: 1%;
+  }
 }
 
 
