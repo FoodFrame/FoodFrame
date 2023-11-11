@@ -61,10 +61,52 @@ body{
 
 .h2-in-steps {
     flex-shrink: 0;
-    color: #000;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 15px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.render-screen-small {
+    display: none;
+}
+
+.render-text-small {
+    display: none;
+}
+
+
+@media only screen and (max-width: 727px) {
+
+    .gather-description-div {
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    .gather-description-div  > p {
+        display: flex;
+        text-align: center;
+    }
+
+    .h1-in-steps {
+        text-align: center;
+    }
+    .steps-div-left {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .steps-div-right {
+        display: none;
+    }
+
+    .render-screen-small {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
