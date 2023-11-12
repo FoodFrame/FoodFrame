@@ -60,7 +60,6 @@ body{
     background-repeat: no-repeat;
     font-size: large;
     padding-left: 12%;
-    background-color: lightblue;
     height: 5%;
     width: 80%;
     align-items: center;
@@ -72,7 +71,6 @@ body{
     background-repeat: no-repeat;
     font-size: large;
     padding-left: 12%;
-    background-color: lightblue;
     height: 5%;
     width: 80%;
     align-items: center;
@@ -84,7 +82,6 @@ body{
     background-repeat: no-repeat;
     font-size: large;
     padding-left: 12%;
-    background-color: lightblue;
     height: 5%;
     width: 90%;
     align-items: center;
@@ -111,7 +108,6 @@ body{
     /*padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px; */
-    background-color: lightblue;
     padding-left: 2%;
 }
 
@@ -150,7 +146,6 @@ body{
     width: 50%;
     /*padding-right: 15px;
     padding-top: 10px; */
-    background-color: lightcoral;
     padding-left: 2%;
 }
 
@@ -169,7 +164,6 @@ body{
 }
 
 .member-speak-to-column-1 {
-    background-color: lightgoldenrodyellow;
     position: relative;
     display: flex;
     width: 32%;
@@ -178,7 +172,7 @@ body{
 
 
 .member-speak-to-column-1 > li, .selection-circle, .selected-circle {
-    padding-top: 4em;
+    padding-top: 0em;
 }
 
 
@@ -187,14 +181,12 @@ body{
 }
 
 .member-speak-to-column-2 {
-    background-color: lightgreen;
     display: flex;
     position: relative;
     width: 32%;
 }
 
 .member-speak-to-column-3 {
-    background-color: lightslategray;
     display: flex;
     position: relative;
     width: 32%;
@@ -244,7 +236,7 @@ body{
 }
 
 .send-message {
-    margin-right: 10%;
+    margin-right: 40%;
     margin-top: 5%;
 }
 
