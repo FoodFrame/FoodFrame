@@ -20,7 +20,7 @@ body{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
-    margin-bottom: 130px;
+    margin-bottom: 8%;
 }
 
 .contact-information {
@@ -217,15 +217,6 @@ body{
     justify-content: space-around;
 }
 
-.input-circle {
-    height: 20px;
-    border-radius: 50%;
-    width: 20px;
-    margin-right: 10%;
-    margin-left: 5%;
-    cursor: pointer;
-}
-
 .selected-circle {
     color: #602400;
     list-style-type: disc;
@@ -343,4 +334,137 @@ h1 > span {
     line-height: normal;
     letter-spacing: -0.6px;
     padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 1114px) {
+    .contact-us-hero {
+        flex-direction: column;
+    }
+    .contact-information {
+        padding-top: 0;
+        margin-top: 0;
+        flex-direction: row; 
+        justify-content: center;
+        width: 100%;
+        background-color: lightblue;
+        background-image: none;
+        background: url("../images-foodframe/circle-contact.png") -40% 50% no-repeat, url("../images-foodframe/circle-contact.png") 140% 50% no-repeat;
+        position: relative;
+    }
+
+    .phone-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        background-image: none;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .email-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .location-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .write-a-message {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-direction-small {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: lightblue;
+        padding: 0% 10%;
+        margin: 0;
+    }
+
+    .messages-writer-stats1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .messages-writer-stats2 {
+        top: 0;
+        left: 0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact-us-hero {
+        margin-bottom: 50%;
+    }
+
+    .messages-writer-stats1 > input {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .messages-writer-stats1 > p {
+        margin: 2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    .messages-writer-stats2 > input {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    .messages-writer-stats2 > p {
+        margin-bottom: 2%;
+    }
+
+    .messages-writer-stats1:first-child {
+        margin-top: 2%;
+    }
+
+    .messages-writer-stats1 {
+        margin-bottom: -5%;
+    }
+
+    .member-speak-to {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+    }
+
 }
