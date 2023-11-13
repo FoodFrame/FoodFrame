@@ -97,8 +97,7 @@ body{
     color: #000;
     font-size: 12px;
     line-height: 20px;
-    /*padding-left: 23px;
-    padding-top: 12px; */
+    padding-top: 1.5%;
 }
 
 .writer-information {
@@ -128,7 +127,7 @@ body{
 }
 
 .messages-writer-stats2 > input {
-    width: 85%;
+    width: 86%;
     margin-bottom: 10%;
 }
 
@@ -163,8 +162,7 @@ body{
     position: relative;
     flex-direction: column;
     display: block;
-    background-color: lightgreen;
-    top: 40%;
+    top: 38%;
     height: 25%;
     width: 100%;
 }
@@ -177,49 +175,37 @@ body{
     height: 0%;
     align-items: center;
     margin-bottom: 5%;
+    font-size: 20px;
 }
-.list {
-    list-style: none;
+.list, .list1 {
+    list-style-type: circle;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list1 {
+    margin-bottom: 10%;
 }
 
 .member-speak-to  > p {
     padding-left: 2%;
 }
 
-.inner-container-2 {
-    display: flex;
-    background-color: lightcoral;
-    border: solid black 1px;
-    width: 33%;
-    height: 40%;
-    padding: 0;
-    margin: 0;
-    align-items: center; 
-}
-
 .inner-container-1 {
     display: flex;
     flex-direction: column;
-    background-color: lightcoral;
-    border: solid black 1px;
     width: 33%;
     padding: 0;
     margin: 0;
-    align-items: center; 
 }
 
-.inner-container-1 > span {
-    margin-left: 10%;
-}
-
-.inner-container-2 > span {
-    margin-left: 10%;
+.inner-container-1 > li {
+    padding-left: 18%;
 }
 
 .member-speak-to-row-1 {
     display: flex;
     position: relative;
-    background-color: lightblue;
     width: 100%;
     justify-content: space-around;
 }
@@ -227,7 +213,6 @@ body{
 .member-speak-to-row-2 {
     position: relative;
     display: flex;
-    background-color: lightgoldenrodyellow;
     width: 100%;
     justify-content: space-around;
 }
@@ -236,20 +221,26 @@ body{
     height: 20px;
     border-radius: 50%;
     width: 20px;
-    border: solid 1px black;
     margin-right: 10%;
     margin-left: 5%;
     cursor: pointer;
 }
 
 .selected-circle {
-    color: brown;
+    color: #602400;
+    list-style-type: disc;
+    font-weight: bold;
+}
+
+.selected-circle > li {
+    color: #602400;
 }
 
 .contact-options-box {
     display: flex;
     flex-direction: column;
     list-style: none;
+    font-weight: bold;
 }
 
 .items-bottom {
@@ -261,20 +252,15 @@ body{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 55%;
+    top: 65%;
     height: 40%;
     width: 100%;
-}
-
-.where-to-write-your-message  > p {
-    padding-top: 7%;
-    padding-bottom: 1%;
-    padding-left: 2%;
+    font-size: 20px;
+    padding: 0% 2%;
 }
 
 .input-contact {
-    width: 90%;
-    margin-left: 2%;
+    width: 100%;
     align-self: left;
     border: none;
     border-bottom: 1px solid #602400;
@@ -292,25 +278,26 @@ body{
 }
 
 .send-message {
-    margin-right: 40%;
-    margin-top: 5%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
 }
 
 .send-message-button {
     float: right;
     top: 75%;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 1px solid #331300;
     background: #F8B474;
     display: flex;
-    width: 135px;
-    height: 35px;
+    width: 230px;
+    height: 40px;
     justify-content: center;
     align-items: center;   
     color: #331300;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
 }
@@ -328,7 +315,6 @@ h1 > span {
     font-size: 72px;
     font-weight: 700;
     line-height: 64px; /* 88.889% */
-    padding-left: 2.5%;
 }
 
 .food-frame-contact {
@@ -343,6 +329,8 @@ h1 > span {
     font-weight: 300;
     line-height: 64px; /* 88.889% */
     margin-bottom: -12px;
+    padding-right:0;
+    margin-right: 0;
 }
 
 .questions-concerns {
