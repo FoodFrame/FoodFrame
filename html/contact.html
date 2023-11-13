@@ -64,31 +64,42 @@
                 <div class="messages-writer-stats2">
                     <p>Email</p>
                     <input class="input-boxes">
-                    <p></p>Phone</p>
+                    <p>Phone</p>
                     <input class="input-boxes">
                 </div>
                 <div class="member-speak-to">
-                   <p>Select which member to speak to:</p>
-                     <div class="contact-options-box">
-                        <div class="member-speak-to-column-1">
-                                <ul class="greater-ul">
-                                    <li id='general-manager' class="contact-list-items on-top-general-manager selection-circle" onclick="checkCircleBox('general-manager')">General Manager</li>
-                                    <li id='developper-2' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('developper-2')">Developer 2</li>
-                                </ul>
+                    <p class="select-which-member">Select which member to speak to:</p>
+                        <div class="member-speak-to-row-1">
+                            <div class="inner-container-1">
+                                <span id='general-manager' class="input-circle" onclick="checkCircleBox('general-manager')"></span>   
+                                <li id='general-manager' class="list">General Manager</li>
+                                <span id='community-manager' class="input-circle" onclick="checkCircleBox('community-manager')" ></span>
+                                <li id='community-manager' class="list">Community Manager</li>
                             </div>
-                            <div class="member-speak-to-column-2">
-                                <ul class="greater-ul">
-                                    <li id='designer' class="contact-list-items on-top-designer selection-circle" onclick="checkCircleBox('designer')">Designer</li>
-                                    <li id='community-manager' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('community-manager')">Community Manager</li>
-                                </ul>
+                            <div class="inner-container-1">
+                                <span id='developper-1' class="input-circle" onclick="checkCircleBox('developper-1')"></span>   
+                                <li id='developper-1' class="list">Developer 1</li>
+                                <span id='developper-2' class="input-circle" onclick="checkCircleBox('developper-2')"></span>
+                                <li id='developper-2' class="list">Developer 2</li>
+                            </div>
+                            <div class="inner-container-1">
+                                <span id='designer' class="input-circle" onclick="checkCircleBox('designer')"></span>
+                                <li id='designer' class="list">Designer</li>
+                                <span id='no-preference' class="input-circle" onclick="checkCircleBox('no-preference')"></span>
+                                <li id='no-preference' class="list">No Preference</li>
+                            </div>
                         </div>
-                        <div class="member-speak-to-column-3">
-                                <ul class="greater-ul">
-                                    <li id='developper-1' class="contact-list-items on-top selection-circle" onclick="checkCircleBox('developper-1')">Developer 1</li>
-                                    <li id='no-preference' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('no-preference')">No Preference</li>
-                                </ul>
-                        </div>
-                     </div>
+                        <!--<div class="member-speak-to-row-1">
+                            <div class="inner-container-1">
+                                
+                            </div>
+                            <div class="inner-container-1">
+                                
+                            </div>
+                            <div class="inner-container-1"> 
+                                
+                            </div>
+                        </div>   </!--->
                 </div>
                 <div class="where-to-write-your-message">
                     <p>Message</p>
