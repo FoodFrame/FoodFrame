@@ -4,7 +4,6 @@ body {
   padding: 0;
 }
 
-
 .footer-div {
     background-color: #F8B474;
     display: flex;
@@ -173,4 +172,29 @@ input.check-toggle-round-flat:checked + label {
   
 input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
+}
+
+@media only screen and (max-width: 550px) {
+    
+
+    .footer-div {
+        height: 20%;
+        margin-top: 15%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .footer-content {
+        display: none;
+    }
+
+    .switch {
+        display: none;
+    }
+
+    .credit {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 }

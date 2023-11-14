@@ -339,6 +339,8 @@ h1 > span {
 @media only screen and (max-width: 1114px) {
     .contact-us-hero {
         flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
     }
     .contact-information {
         padding-top: 0;
@@ -397,6 +399,9 @@ h1 > span {
         width: 100%;
         display: flex;
         flex-direction: column;
+        /*height: 80%; */
+        margin-bottom: 10%;
+        height: 620px;
     }
 
     .column-direction-small {
@@ -426,6 +431,10 @@ h1 > span {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    .messages-writer-stats2:last-child {
+        padding-bottom: 4%;
     }
 
     .contact-us-hero {
@@ -459,12 +468,519 @@ h1 > span {
     .messages-writer-stats1 {
         margin-bottom: -5%;
     }
+    
+    .where-to-write-your-message {
+        display: flex;
+        background-color: lightgoldenrodyellow;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 19%;
+        font-size: 20px;
+        top: 0;
+        bottom: 100%;
+        margin: 0;
+        padding: 0% 5%;
+        margin-top: 21.5%;
+        height: 100%;
+    }
+
+    /*.where-to-write-your-message > button, .send-message {
+        margin: 0;
+        padding: 0;
+    } */
 
     .member-speak-to {
         display: flex;
         position: relative;
         flex-direction: column;
         width: 100%;
+        top: 0;
     }
 
+    .inner-container-1:first-child {
+        padding-top: 2%;
+    }
+
+    .member-speak-to-row-1 {
+        flex-direction: column;
+        margin-top: 4%;
+        margin-bottom: 80%;
+    }
+
+    .inner-container-1 {
+        flex-direction: row;
+        background-color: lightcoral;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .inner-container-1 > * {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2%;
+    }
+
+    .inner-container-1 > .list1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .inner-container-1 > .list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .select-which-member {
+        position: relative;
+        top: 0;
+        font-size: 100%;
+        display: flex;
+        height: 0%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+
+    .send-message {
+        margin: 0;
+        padding: 0;
+        padding-top: 6.5%;
+    }
+
+    .send-message-button {
+        width: 175px;
+        height: 35px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 555px) {
+    .contact-us-hero {
+        flex-direction: column;
+        background-color: black;
+        border-radius: 20px;
+    }
+    .contact-information {
+        padding-top: 0;
+        margin-top: 0;
+        flex-direction: row; 
+        justify-content: center;
+        width: 100%;
+        background-color: lightblue;
+        background-image: none;
+        background: url("../images-foodframe/circle-contact.png") -40% 50% no-repeat, url("../images-foodframe/circle-contact.png") 140% 50% no-repeat;
+        position: relative;
+    }
+
+    .phone-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        background-image: none;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .email-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .location-logo {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        font-size: large;
+        height: 5%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .write-a-message {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /*height: 80%; */
+        margin-bottom: 10%;
+        height: 620px;
+    }
+
+    .column-direction-small {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: lightblue;
+        padding: 0% 10%;
+        margin: 0;
+    }
+
+    .messages-writer-stats1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .messages-writer-stats2 {
+        top: 0;
+        left: 0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .messages-writer-stats2:last-child {
+        padding-bottom: 4%;
+    }
+
+    .contact-us-hero {
+        margin-bottom: 50%;
+    }
+
+    .messages-writer-stats1 > input {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .messages-writer-stats1 > p {
+        margin: 2%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    .messages-writer-stats2 > input {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
+    .messages-writer-stats2 > p {
+        margin-bottom: 2%;
+    }
+
+    .messages-writer-stats1:first-child {
+        margin-top: 2%;
+    }
+
+    .messages-writer-stats1 {
+        margin-bottom: -5%;
+    }
+    
+    .where-to-write-your-message {
+        display: flex;
+        background-color: lightgoldenrodyellow;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 19%;
+        font-size: 20px;
+        top: 0;
+        bottom: 100%;
+        margin: 0;
+        padding: 0% 5%;
+        margin-top: 21.5%;
+        height: 100%;
+    }
+
+    /*.where-to-write-your-message > button, .send-message {
+        margin: 0;
+        padding: 0;
+    } */
+
+    .member-speak-to {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+    }
+
+    .inner-container-1:first-child {
+        padding-top: 2%;
+    }
+
+    .member-speak-to-row-1 {
+        flex-direction: column;
+        margin-top: 4%;
+        margin-bottom: 80%;
+    }
+
+    .member-speak-to-row-1 {
+        flex-direction: column;
+        margin-top: 4%;
+    }
+
+    .inner-container-1 {
+        flex-direction: column;
+        background-color: lightcoral;
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .inner-container-1 > .list1 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2%;
+    }
+
+    .select-which-member {
+        position: relative;
+        top: 0;
+        font-size: 100%;
+        display: flex;
+        height: 0%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+
+    .send-message {
+        margin: 0;
+        padding: 0;
+        padding-top: 6.5%;
+    }
+
+    .send-message-button {
+        width: 175px;
+        height: 35px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
 }
