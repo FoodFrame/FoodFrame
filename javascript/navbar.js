@@ -29,3 +29,17 @@ window.addEventListener('resize', resetNavOnResize);
 
 resetNavOnResize();
 
+
+function nav_close() {
+    const navOpa = document.getElementById('opacity_nav').onMouseClick
+
+    const navToggle = document.querySelector('#nav_dropdown')
+
+    if (navOpa && navToggle.checked) {
+        navToggle.checked = false;  
+
+    }
+
+}
+
+nav_close();
