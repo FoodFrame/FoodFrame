@@ -336,6 +336,28 @@ h1 > span {
     padding-bottom: 1%;
 }
 
+.contact-footer-div {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.contact-footer-div > img {
+    width: 65px;
+    height: 90px;
+}
+
+.footer-lists {
+    display: flex;
+}
+
+.footer-stuff {
+
+}
+
+
+
 @media only screen and (max-width: 1114px) {
     .contact-us-hero {
         flex-direction: column;
@@ -475,14 +497,11 @@ h1 > span {
         flex-direction: column;
         position: relative;
         width: 100%;
-        height: 19%;
-        font-size: 20px;
         top: 0;
-        bottom: 100%;
+        font-size: 20px;
         margin: 0;
         padding: 0% 5%;
-        margin-top: 21.5%;
-        height: 100%;
+        margin-top: 10%;
     }
 
     /*.where-to-write-your-message > button, .send-message {
@@ -512,6 +531,7 @@ h1 > span {
         flex-direction: row;
         background-color: lightcoral;
         width: 100%;
+        height: 100%;
         margin-bottom: 2%;
     }
 
@@ -559,8 +579,83 @@ h1 > span {
         padding: 0;
     }
 
+    .send-message {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 0;
+    }
+
+    .where-to-write-your-message > p {
+        margin-top: 2%;
+    }
+
+    .input-contact {
+        width: 100%;
+        align-self: left;
+        border: none;
+        border-bottom: 1px solid #602400;
+        overflow-y: hidden;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px; /* 142.857% */
+    }
+
 }
 
+@media only screen and (min-width: 730px) {
+
+    .select-which-member {
+        padding-top:  1%;
+        padding-bottom: 1%;
+    }
+
+    .where-to-write-your-message {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .select-which-member {
+        padding-top:  1%;
+        padding-bottom: 1%;
+    }
+
+    .where-to-write-your-message {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1114px) {
+    .where-to-write-your-message {
+        margin-top: 6%;
+    }
+
+    .send-message-button {
+        margin: 0;
+        padding: 0;
+    }
+
+    .send-message {
+        margin: 0;
+        padding: 0;
+        margin-top: 2%;
+    }
+
+    .input-contact {
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-speak-to-row-1 {
+        margin-top: -2.5%;
+        padding-top: 0%;
+    }
+}
 
 
 
