@@ -1,4 +1,3 @@
-
 function changeNavbarElementColor(elementType) //add a class to the list item in order to change its css
 {
     console.log('Yes!');
@@ -15,3 +14,18 @@ function changeNavbarNormal(elementType) //removes the class that was added with
 
     document.querySelector(`#${elementType}`).classList.remove('navbar-elements-hover');
 }
+
+
+function resetNavOnResize() {
+    const navToggle = document.querySelector('#nav_dropdown')
+
+
+    if (navToggle && navToggle.checked && window.innerWidth > 730) {
+        navToggle.checked = false;  
+    }
+}
+
+window.addEventListener('resize', resetNavOnResize);
+
+resetNavOnResize();
+

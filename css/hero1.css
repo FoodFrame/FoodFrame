@@ -8,7 +8,7 @@ body {
     color: #602400;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    margin: auto;
+    margin-top: 25px;
     justify-content: center;
     font-size: 72px;
     font-style: normal;

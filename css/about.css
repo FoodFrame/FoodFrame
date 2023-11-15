@@ -1,4 +1,4 @@
-body{
+body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
@@ -15,9 +15,12 @@ body{
     align-self: center;
     width: 80%;   
     display: flex;
-    border-radius: 15px;
-    padding-bottom: 3%;
+    /*border-radius: 15px; */
+    padding: 0;
+    margin: 0;
     top: 100px;
+    z-index: -1;
+    background-color: transparent;
 }
 
 .photo-pro-1 {
@@ -108,19 +111,19 @@ body{
 
 .row-1 {
     display: flex;
-    background-color: lightblue;
     width: 80%;
     position: relative;
     margin: auto;
     border-radius: 10px;
-    margin-bottom: 3%;
-    margin-top: 100px;
+    margin-bottom: 1.5%;
+    margin-top: 4%;
+    padding-top: 0%;
+    border: solid 1px black;
 }
 
 .column1-row-1 {
     display: flex;
     flex-direction: column;
-    background-color: lightgoldenrodyellow;
     width: 55%;
     padding: 2% 3%;
 }
@@ -142,25 +145,47 @@ body{
 }
 
 .hr-rule-with-title {
+    margin-top: -6%;
     width: 100%;
     border-bottom: 1px solid black;
     text-align: center;
-    height: 0.65%;
+    height: 1.10%;
+    font-size: x-large;
 }
 
 .span-hr {
-    background-color: white;
-    padding: 0% 2%;
+    background-color: #F29849;
+    padding: 0% 1%;
 }
 
 .P3 {
-    padding: 0% 0%;
+    padding: 5% 0%;
     margin: 0% 0%;
     justify-content: space-between;
     display: flex;
-    background-color: #F8B474;
+    background-color: #F29849;
     flex-direction: column;
-    padding-top: 100px;
+}
+
+.image-background-div {
+    width: 100%;
+    background-color: #F29849;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 8%;
+}
+
+.greater-photo {
+    background-color: transparent;
+}
+
+.P2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.05%;
+    margin-top: 15%;
 }
 
 /*.who-we-are,

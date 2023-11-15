@@ -10,48 +10,55 @@
 </head>
 
 <body>
-    <div class="navbar-div contact-navbar-div">
-        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
-        <ul class="navbar-content">
-            <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
-                <a href="home.html">Home</a>
-            </li>
-            <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
-                <a href="install now.html">Install Now</a>
-            </li>
-            <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
-                <a href="about.html">About</a>
-            </li>
-            <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-        <div class="langage">
-            <div class="switch">
-                <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                <label for="language-toggle"></label>
-                <span class="on">EN</span>
-                <span class="off">FR</span>
-            </div>
-        </div>
-    </div>
+    <div class="navbar_container">
+    <header>
+        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
 
+        <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+            
+        <nav>
+            <ul class="navbar-content">
+                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                    <a href="home.html">Home</a>
+                </li>
+
+                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                    <a href="install now.html">Install Now</a>
+                </li>
+
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
+
+                <li class="navbar-elements"> <a>FR</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_dropdown" class="nav_dropdown_label"> 
+            <span></span>
+        </label>
+    </header>
+</div>   
 
     <div class="install-information">
         <img class ="mobile" src="../images-foodframe/mobile_banner.png"/>
         <div class="text-rectangle">
             <main class="text">
-                <p class="company-name-1">FOOD</p>
-                <p class="company-name-2">FRAME</p>   
-                <p class="company-3">will be available soon...</p>   
-                <hr class="separator"> 
-                <div class="description">
+                <p class="company-name-1">FOOD <span class="company-name-2">FRAME</span></p> 
+                    <p class="company-3">will be available soon...</p>   
+                    <hr class="separator"> 
+                <div class="description shrink-delete">
                     <p> Welcome to our software installation page. Follow the page and steps below to install our software on your computer or phone.</p>
                     <ol class="centered-list">
                         <li><span class="highlight">Click</span> the download button below to download the installer.</li>
                         <li><span class="highlight">Run</span> the installer and follow the on-screen instructions.</li>
                         <li>Once the installation is complete, you can <span class="highlight">start using</span> our software.</li>
                     </ol>
+                </div>
                     <div class="_2_buttons">
                         <a href="software_installer.exe" download class = app_logo_1>
                             <button class="download_button">
@@ -65,7 +72,7 @@
                             </button>
                         </a>
                     </div>
-                    <p> If you encounter any issues during the installation, please <a href="contact.html"> contact us</a> for assistance.</p>
+                    <p class="encounter-issues"> If you encounter any issues during the installation, please <a href="contact.html"> contact us</a> for assistance.</p>
                 </div>
             </main>
         </div>

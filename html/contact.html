@@ -1,37 +1,49 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../css/contact.css"></link>
-        <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
-        <link rel="stylesheet" type="text/css" href="../css/footer.css"></link>
-        <link rel="stylesheet" type="text/css" href="../css/langage_button.css"></link>
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../css/langage_button.css">
     </head>
     <body>
-        <div class="navbar-div contact-navbar-div">
-            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+        <div class="navbar_container">
+    <header>
+        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
+
+        <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+            
+        <nav>
             <ul class="navbar-content">
                 <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
                     <a href="home.html">Home</a>
                 </li>
+
                 <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
                     <a href="install now.html">Install Now</a>
                 </li>
-                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
-                    <a href="about.html">About</a>
-                </li>
+
                 <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
                     <a href="contact.html">Contact</a>
                 </li>
+
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
+
+                <li class="navbar-elements"> <a>FR</a>
+                </li>
             </ul>
-            <div class="langage">
-                <div class="switch">
-                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                    <label for="language-toggle"></label>
-                    <span class="on">EN</span>
-                    <span class="off">FR</span>
-                </div>
-            </div>
-        </div>
-        <h1 class="food-frame-contact">CONTACT <span> US</span></h1>
+        </nav>
+
+        <label for="nav_dropdown" class="nav_dropdown_label"> 
+            <span></span>
+        </label>
+
+    </header>
+    
+</div>   
+
+        <h1 class="food-frame-contact">CONTACT<span>US</span></h1>
         <p class="questions-concerns">Any question or remarks? Just write us a message!</p>
         <div class="contact-us-hero">
             <div class="contact-information">
@@ -43,46 +55,53 @@
                 </ul>
             </div>
             <div class="write-a-message">
-                <div class="messages-writer-stats1">
-                    <p>First Name</p>
-                    <input class="input-boxes">
-                    <p>Last Name</p>
-                    <input class="input-boxes">
-                </div>
-                <div class="messages-writer-stats2">
-                    <p>Email</p>
-                    <input class="input-boxes">
-                    <p></p>Phone</p>
-                    <input class="input-boxes">
+                <div class="column-direction-small">
+                    <div class="messages-writer-stats1">
+                        <p>First Name</p>
+                        <input class="input-boxes">
+                        <p>Last Name</p>
+                        <input class="input-boxes">
+                    </div>
+                    <div class="messages-writer-stats2">
+                        <p>Email</p>
+                        <input class="input-boxes">
+                        <p>Phone</p>
+                        <input class="input-boxes">
+                    </div>
                 </div>
                 <div class="member-speak-to">
-                   <p>Select which member to speak to:</p>
-                     <div class="contact-options-box">
-                        <div class="member-speak-to-column-1">
-                                <ul class="greater-ul">
-                                    <li id='general-manager' class="contact-list-items on-top-general-manager selection-circle" onclick="checkCircleBox('general-manager')">General Manager</li>
-                                    <li id='developper-2' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('developper-2')">Developper 2</li>
-                                </ul>
+                    <p class="select-which-member">Select which members you would like to speak to:</p>
+                        <div class="member-speak-to-row-1">
+                            <div class="inner-container-1">
+                                <li id='general-manager' class="list1" onclick="checkCircleBox('general-manager')">General Manager</li>
+                                <li id='community-manager' class="list" onclick="checkCircleBox('community-manager')">Community Manager</li>
                             </div>
-                            <div class="member-speak-to-column-2">
-                                <ul class="greater-ul">
-                                    <li id='designer' class="contact-list-items on-top-designer selection-circle" onclick="checkCircleBox('designer')">Designer</li>
-                                    <li id='community-manager' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('community-manager')">Community Manager</li>
-                                </ul>
+                            <div class="inner-container-1">
+                                <li id='developper-1' class="list1" onclick="checkCircleBox('developper-1')">Developer 1</li>
+                                <li id='developper-2' class="list" onclick="checkCircleBox('developper-2')">Developer 2</li>
+                            </div>
+                            <div class="inner-container-1">
+                                <li id='designer' class="list1" onclick="checkCircleBox('designer')">Designer</li>
+                                <li id='no-preference' class="list" onclick="checkCircleBox('no-preference')">No Preference</li>
+                            </div>
                         </div>
-                        <div class="member-speak-to-column-3">
-                                <ul class="greater-ul">
-                                    <li id='developper-1' class="contact-list-items on-top selection-circle" onclick="checkCircleBox('developper-1')">Developper 1</li>
-                                    <li id='no-preference' class="contact-list-items items-bottom selection-circle" onclick="checkCircleBox('no-preference')">No Preference</li>
-                                </ul>
-                        </div>
-                     </div>
+                        <!--<div class="member-speak-to-row-1">
+                            <div class="inner-container-1">
+                                
+                            </div>
+                            <div class="inner-container-1">
+                                
+                            </div>
+                            <div class="inner-container-1"> 
+                                
+                            </div>
+                        </div>   </!--->
                 </div>
                 <div class="where-to-write-your-message">
                     <p>Message</p>
                     <textarea class="input-contact" placeholder="Write your message..."></textarea>
                     <div class="send-message">
-                        <button class="send-message-button">Send Message</button>
+                        <button class="send-message-button" onclick="sendMessage()">Send Message</button>
                     </div>
                 </div>
             </div>
