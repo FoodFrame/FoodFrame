@@ -179,7 +179,6 @@ input.check-toggle-round-flat:checked + label:after {
 @media only screen and (max-width: 550px) {
     .footer-div {
         height: 20%;
-        margin-top: 15%;
         padding-top: 3%;
         padding-bottom: 3%;
     }
@@ -198,3 +197,24 @@ input.check-toggle-round-flat:checked + label:after {
         justify-content: center;
     }
 }
+
+@media only screen and (min-width: 1114px) {
+    .footer-div{
+        margin-top: 15%;
+
+    }
+
+}
+
+@media only screen and (min-width: 557px) {
+    .footer-div{
+        margin-top: 135px;
+
+    }
+
+}
+
+
+
+
+
