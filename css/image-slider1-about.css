@@ -1,0 +1,89 @@
+.slider1 {
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+ }
+
+ /*Beginning of css for manual slide navigation*/
+
+#radio6:disabled ~ .first {
+    margin-left: 0;
+}
+
+#radio7:disabled ~ .first {
+    margin-left: -20%;
+}
+
+#radio8:disabled ~ .first {
+    margin-left: -40%;
+}
+
+#radio9:disabled ~ .first {
+    margin-left: -60%;
+}
+
+#radio10:disabled ~ .first {
+    margin-left: -80%;
+}
+
+/*Now for automatic navigation */
+
+
+.team-names {
+    padding-left: 5%;
+    padding-top: 0;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    font-size: xx-large;
+    padding-bottom: 0;
+    font-family: "Roboto" "sans-serif";
+}
+
+.description-for-team {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 5%;
+    font-size: large;
+    font-family: "Roboto" "sans-serif";
+}
+
+.member-description {
+    padding-top: 0;
+    margin-top: 1%;
+    padding-bottom: 0;
+    margin-bottom: 6%;
+    position: relative;
+    padding-left: 5%;
+    max-width: 65%;
+    overflow-wrap: break-word;
+    font-family: "Roboto" "sans-serif";
+}
+
+.first, .second, .third, .fourth, .fifth {
+    position: relative;
+    font-family: "Roboto" "sans-serif";
+    background-color: white;
+    border-radius: 2px;
+}
+
+.role-span {
+    position: absolute;
+    background-color: #F29849;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1% 20%;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto" "sans-serif";
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 200;
+    align-self: center;
+    left: 25%;
+}

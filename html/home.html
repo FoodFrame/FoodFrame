@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/hero1.css"></link>
-		<link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
-		<link rel="stylesheet" type="text/css" href="../css/gather-snap-cook.css"></link>
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Food Frame - Home</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/hero1.css">
+        
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        
+        <link rel="stylesheet" type="text/css" href="../css/gather-snap-cook.css">
 
-	<body>
-        <div class="navbar-div">
-            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
-            <ul class="navbar-content">
-<<<<<<< HEAD
-                <li class="navbar-elements">Home</li>
-                <li class="navbar-elements"><a href="install now.html">Install Now</a></li>
-                <li class="navbar-elements"><a href="contact.html">Contact</a></li>
-                <li class="navbar-elements"><a href="about.html">About</a></li>
-=======
-                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
-                    <a href="home.html">Home</a>
-                </li>
-                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
-                    <a href="install now.html">Install Now</a>
-                </li>
-                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
-                    <a href="about.html">About</a>
-                </li>
->>>>>>> d112a80e0a82535643148e87e70471e7f51126bb
-                <li class="navbar-elements">FR</li>
-            </ul>
-        </div>
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+
+    </head>
+
+    <body>
+        <div class="navbar_container">
+            <header>
+                <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
+
+                <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+
+                <div id="opacity_nav" onclick="navClose()"></div>
+                    
+                <nav>
+                    <ul class="navbar-content">
+                        <li class="nav_el1" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                            <a href="home.html">Home</a>
+                        </li>
+
+                        <li class="nav_el2" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                            <a href="install now.html">Install Now</a>
+                        </li>
+
+                        <li class="nav_el3" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav_el4" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li class="nav_el5"> <a>FR</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="nav_dropdown" class="nav_dropdown_label"> 
+                    <span></span>
+                </label>
+
+         </header>
+
+        </div> 
+
+
         <div class="background-img-hero1">
             <h1 class="foodframe-header">FOOD<span>FRAME</span></h1>
             <div class="hero-photos">
@@ -44,39 +65,88 @@
                 </div>
             </div>
             <p class="gather-snap-cook-slogan"> Gather, Snap and Cook. It's that easy!</p>
-            <button class="join-now" onclick=" location.href= './install now.html';">Join Now!</button>
-        </div>
-		<div class="steps-div">
-            <img src="../images-foodframe/3-steps-gather-img.png"/>
-            <div class="gather-description-div">
-                <h2 class="h2-in-steps">GATHER</h2>
-                <p class="h2-in-steps">
-                Gather all your ingredients together and place them on a neutral background. 
-                </p>
-            </div>
-        </div>
-        <div class="steps-div steps-div-other-side">
-            <img src="../images-foodframe/3-steps-snap-img.png"/>
-            <div class="gather-description-div">
-                <h2 class="h2-in-steps">SNAP</h2>
-                <p class="h2-in-steps">
-                Pull up your FOOD FRAME app and take a snapshot of your ingredients.
-                </p>
-            </div>
-        </div>
-        <div class="steps-div">
-            <img src="../images-foodframe/3-steps-recipe-img.png"/>
-            <div class="gather-description-div">
-                <h2 class="h2-in-steps">COOK!</h2>
-                <p class="h2-in-steps">
-                FOOD FRAME will generate recipes based on the ingredients that are at your disposition.
-                </p>
+            <div class="join-now">
+                <button class="join-now-button" onclick=" location.href= './install now.html';">Join Now!</button>
             </div>
         </div>
 
-        <script src="../javascript/navbar.js"></script>
-        <script src="../javascript/homepage.js"></script>
-	</body>
+        <div class="steps-div">
+            <div class="steps-div-left">
+                <img src="../images-foodframe/3-steps-gather-img.png"/>
+                <div class="gather-description-div">
+                    <h2 class="h1-in-steps">GATHER</h2>
+                    <p class="h2-in-steps">
+                    Gather all your ingredients together and place them on a neutral background. 
+                    </p>
+                </div>
+            </div>
+            <div class="render-screen-small steps-div-right">
+                <img src="../images-foodframe/3-steps-snap-img.png"/>
+                <div class="gather-description-div">
+                    <h2 class="h1-in-steps">SNAP</h2>
+                    <p class="h2-in-steps">
+                    Pull up your FOOD FRAME app and take a snapshot of your ingredients.
+                    </p>
+                </div>
+            </div>
+            <div class="steps-div-right">
+                <div class="gather-description-div">
+                    <h2 class="h1-in-steps">SNAP</h2>
+                    <p class="h2-in-steps">
+                    Pull up your FOOD FRAME app and take a snapshot of your ingredients.
+                    </p>
+                </div>
+                <img src="../images-foodframe/3-steps-snap-img.png"/>
+            </div>
+            <div class="steps-div-left">
+                <img src="../images-foodframe/3-steps-recipe-img.png"/>
+                <div class="gather-description-div">
+                    <h2 class="h1-in-steps">COOK!</h2>
+                    <p class="h2-in-steps">
+                    FOOD FRAME will generate recipes based on the ingredients that are at your disposition.
+                    </p>
+                </div>
+            </div>    
+        </div>
+
+        <div class="gif-add">
+            <p>GIF ADD OF THE APP</p>
+        </div>
+        <div class="footer-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="footer-content">
+                <li class="footer-elements">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <hr width="100%">    
+            <div class="column">
+                <div class="credit">
+                    <p>© 2023 Food FRAME. All rights reserved</p>
+                </div>
+                <div class="languageForm">
+                    <form>
+                        <select id="langSelect">
+                            <option value="en">EN</option>
+                            <option value="fr">FR</option>
+                        </select>
+                    </form>
+                </div>    
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="../javascript/navbar.js"></script>
+    </body>
 </html> 
 
 

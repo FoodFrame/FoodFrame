@@ -1,0 +1,64 @@
+The team has a style guideline in style_guidelines.txt.
+(done)
+
+Overall Look and Feel of FoodFrame
+===============================
+
+- Bright and calm.
+- Clean and simplistic
+- Fluid
+- Easy and intuitive navigation
+
+
+Colours
+========
+For FoodFrame, we decided to go with light orange and brown as our main colours. This will give our website an elegant contrast and a clean and professional look. These colours will also contribute to the aesthetic feel of our organization's webiste:
+
+- #F29849
+- #602400
+- #F8B474
+- #3F1903
+
+Iconography
+===========
+Our icons will be for the very most part in 2D. We decided to go for a simple, clean and elegant design for our website and thus, flat icons will be best for this look. They will also have a neutral color like black or white.
+
+
+Typography
+==========
+We will be using Roboto from Google Fonts. We found that it matched the aesthetic for our website design.
+
+
+Links
+=====
+We won't have simple anchor tag in our website. They will be embedded in list items that we create in the navbar and in the body of our website pages. This will allow us to give the website a more professional look.
+
+
+Buttons
+=======
+Our buttons will have reasonably strong border-radius intensity and their colour will either be a shade of brown or orange (matching the colours of our website). They will also be 2D like our icons. This will again add to the clean and simplistic look of our website.
+
+
+The guideline talks about typography.
+(done)
+
+The guideline is reflected in the website design.
+(done)
+
+The guideline is reasonably detailed.
+(done)
+
+CSS has been written for the website.
+(done)
+
+JavaScript has been written for the website
+(done)
+
+Fonts, headings, menus and logos were styled.
+(done)
+
+The CSS and JavaScript submission are well-done.
+(done)
+
+Every team member committed something.
+(done)

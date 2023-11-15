@@ -1,38 +1,38 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navbar-div">
-            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+<div class="navbar_container">
+    <header>
+        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
+
+        <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+
+        <div id="opacity_nav" onclick="navClose()"></div>
+            
+        <nav>
             <ul class="navbar-content">
-<<<<<<< HEAD
-                <li>Home</li>
-                <li><a href="install now.html">Install Now</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>FR</li>
-=======
-                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                <li class="nav_el1" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
                     <a href="home.html">Home</a>
                 </li>
-                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+
+                <li class="nav_el2" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
                     <a href="install now.html">Install Now</a>
                 </li>
-                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+
+                <li class="nav_el3" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
                     <a href="contact.html">Contact</a>
                 </li>
-                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+
+                <li class="nav_el4" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
                     <a href="about.html">About</a>
                 </li>
-                <li class="navbar-elements">FR</li>
->>>>>>> d112a80e0a82535643148e87e70471e7f51126bb
-            </ul>
-        </div>
 
-        <script src="../javascript/navbar.js"></script>
-    </body>
-</html>
+                <li class="nav_el5"> <a>FR</a>
+                </li>
+            </ul>
+        </nav>
+
+        <label for="nav_dropdown" class="nav_dropdown_label"> 
+            <span></span>
+        </label>
+
+ </header>
+
+</div> 

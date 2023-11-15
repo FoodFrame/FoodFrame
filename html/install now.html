@@ -1,55 +1,132 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/install-now.css"></link>
-    <title> Install Now Page </title>
-</head>
-<body>
-    <header> 
-        <h1 class="header"> Install Now Our Amazing Product </h1>
-    </header>
-    <div class="install-information">
-        <img class ="mobile" src="../images-foodframe/mobile_banner.png"/>
-        <div class="text-rectangle">
-            <main class="text">
-                <p class="company-name">FOOD</p>
-                <p class="company-name-2">FRAME</p> 
-                <hr class="separator"> 
-                <p> Welcome to our software installation page. Follow the page and steps below to install our software on your computer or phone.</p>
+    <head>
+        <meta charset="UTF-8">
+        <title> Food Frame - Install Now</title>
 
-                <ol class="centered-list">
-                    <li>Click the download button below to download the installer.</li>
-                    <li>Run the installer and follow the on-screen instructions.</li>
-                    <li>Once the installation is complete, you can start using our software.</li>
-                </ol>
+        <link rel="stylesheet" type="text/css" href="../css/install-now.css"></link>
 
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css"></link>
 
-                <div class="_2_buttons">
-                    <a href="software_installer.exe" download class = app_logo_1>
-                        <button class="download_button">
-                            <img src="../images-foodframe/apple_logo.jpg">
-                            <span>
-                                Download on the<br /><strong>App Store</strong>
-                            </span> 
-                        </button>
-                    </a>
+        <link rel="stylesheet" type="text/css" href="../css/footer.css"></link>
 
-                    <a href="software_installer.exe" download class = app_logo_2>
-                        <button class="download_button">
-                            <img src="../images-foodframe/google_play.svg">
-                            <span>
-                                GET IT ON<br /><strong>Google Play</strong>
-                            </span> 
-                        </button>
-                    </a>
+        <link rel="stylesheet" type="text/css" href="../css/langage_button.css"></link>
+        
+        <script src="../javascript/navbar.js"></script>
+    </head>
 
-                </div>
+    <body>
+        <div class="navbar_container">
+            <header>
+                <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
 
-                <footer> 
-                    <p> If you encounter any issues during the installation, please <a href="contact.html"> contact us</a> for assistance.</p>
-                </footer>
-            </main>
+                <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+
+                <div id="opacity_nav" onclick="navClose()"></div>
+                    
+                <nav>
+                    <ul class="navbar-content">
+                        <li class="nav_el1" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                            <a href="home.html">Home</a>
+                        </li>
+
+                        <li class="nav_el2" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                            <a href="install now.html">Install Now</a>
+                        </li>
+
+                        <li class="nav_el3" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav_el4" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li class="nav_el5"> <a>FR</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="nav_dropdown" class="nav_dropdown_label"> 
+                    <span></span>
+                </label>
+
+         </header>
+
+        </div> 
+
+        <div class="install-information">
+            <img class ="mobile" src="../images-foodframe/mobile_banner.png"/>
+            <div class="text-rectangle">
+                <main class="text">
+                    <p class="company-name-1">FOOD <span class="company-name-2">FRAME</span></p> 
+                        <p class="company-3">will be available soon...</p>   
+                        <hr class="separator"> 
+                    <div class="description shrink-delete">
+                        <p> Welcome to our software installation page. Follow the page and steps below to install our software on your computer or phone.</p>
+                        <ol class="centered-list">
+                            <li><span class="highlight">Click</span> the download button below to download the installer.</li>
+                            <li><span class="highlight">Run</span> the installer and follow the on-screen instructions.</li>
+                            <li>Once the installation is complete, you can <span class="highlight">start using</span> our software.</li>
+                        </ol>
+                    </div>
+                        <div class="_2_buttons">
+                            <a href="software_installer.exe" download class = app_logo_1>
+                                <button class="download_button">
+                                    <img src="../images-foodframe/app_store.png">
+                                </button>
+                            </a>
+        
+                            <a href="software_installer.exe" download class = app_logo_2>
+                                <button class="download_button">
+                                    <img src="../images-foodframe/google_play.png">
+                                </button>
+                            </a>
+                        </div>
+                        <p class="encounter-issues"> If you encounter any issues during the installation, please <a href="contact.html"> contact us</a> for assistance.</p>
+                    </div>
+                </main>
+            </div>
         </div>
-    </div>
-</body>
+
+        <div class="paid-version-div">
+            <p class="transition">You might also like</p>
+            <div class="paid-version-block">
+                <p>PAID VERSION</p>
+            </div>
+        </div>
+
+
+        <div class="footer-div">
+            <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
+            <ul class="footer-content">
+                <li class="footer-elements">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="install now.html">Install Now</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li class="footer-elements">
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+            <hr width="100%">    
+            <div class="column">
+                <div class="credit">
+                    <p>© 2023 Food FRAME. All rights reserved</p>
+                </div>
+                <div class="switch">
+                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+                    <label for="language-toggle"></label>
+                    <span class="on">EN</span>
+                    <span class="off">FR</span>
+                </div>  
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../javascript/navbar.js"></script>
+
+    </body>
 </html>

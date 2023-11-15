@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/image-slider1-about.css"></link>
+        <title>Image Slider</title>
+    </head>
+    <body>
+        <div class="greater-div">
+        <!--
+            Starting image slider
+        -->
+            <div class="slider1">
+                <div class="slides">
+                <!---Input Boxes for each image-->
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    <input type="radio" name="radio-btn" id="radio9">
+                    <input type="radio" name="radio-btn" id="radio10">
+
+                <!---Divs for each image-->   
+                <div class="slide first">
+                    <p class="team-names">ANTHONY ALAM</p>
+                    <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                    <span class="role-span">ROLE</span>
+                </div>
+                <div class="slide second">
+                    <p class="team-names">BRADLEY-HANS DESMORNES</p>
+                    <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                    <span class="role-span">ROLE</span>
+                </div>
+                <div class="slide third">
+                    <p class="team-names">ALEXANDER LUNGU</p>
+                    <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                    <span class="role-span">ROLE</span>
+                </div>
+                <div class="slide fourth">
+                    <p class="team-names">GABRIEL TURGEON</p>
+                    <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                    <span class="role-span">ROLE</span>
+                </div>
+                <div class="slide fifth">
+                    <p class="team-names">SALMA SAJID</p>
+                    <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+                    <span class="role-span">ROLE</span>
+                </div>
+
+                <!---Automatic navigation part-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+
+                </div>
+                <!--Manual navigation part-->
+                <div class="navigation-manual">
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                    <label for="radio9" class="manual-btn"></label>
+                    <label for="radio10" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+            Image slider end
+        -->
+
+        <script type="text/javascript">
+        let counter1 = 6;
+        setInterval(function() {
+            document.getElementById('radio' + counter1).checked = true;
+            counter1++;
+            if (counter1 > 10) {
+            counter1 = 6;
+            } 
+        }, 5000)
+        ;
+        </script>
+
+    </body>
+</html>

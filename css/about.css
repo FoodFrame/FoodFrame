@@ -1,3 +1,13 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+.P4 img{
+    width: 100%;
+}
+
 .P1 {
     position: relative;
     left: 10%;
@@ -5,7 +15,12 @@
     align-self: center;
     width: 80%;   
     display: flex;
-    border-radius: 10px;
+    /*border-radius: 15px; */
+    padding: 0;
+    margin: 0;
+    top: 100px;
+    z-index: -1;
+    background-color: transparent;
 }
 
 .photo-pro-1 {
@@ -93,3 +108,108 @@
     border-radius: 10%;
     cursor: pointer;
 }
+
+.row-1 {
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5%;
+    margin-top: 4%;
+    padding-top: 0%;
+    border: solid 1px black;
+}
+
+.column1-row-1 {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 2% 3%;
+}
+
+.who-we-are {
+    height: 0.1vh;
+}
+
+.column2-row-1 {
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.column2-row-1 > img {
+   width: 75%;
+   height: 85%;
+}
+
+.hr-rule-with-title {
+    margin-top: -6%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 1.10%;
+    font-size: x-large;
+}
+
+.span-hr {
+    background-color: #F29849;
+    padding: 0% 1%;
+}
+
+.P3 {
+    padding: 5% 0%;
+    margin: 0% 0%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F29849;
+    flex-direction: column;
+}
+
+.image-background-div {
+    width: 100%;
+    background-color: #F29849;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 8%;
+}
+
+.greater-photo {
+    background-color: transparent;
+}
+
+.P2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.05%;
+    margin-top: 15%;
+}
+
+/*.who-we-are,
+.more-about-us,
+.description-1 {
+  font-size: 25px; 
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: #F8B474; 
+  margin-bottom: 10px; 
+}
+
+.banner {
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  padding: 20px; 
+}
+
+.about-image {
+  position: relative;
+  right: 50px;
+}
+*/
