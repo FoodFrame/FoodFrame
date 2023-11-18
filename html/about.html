@@ -14,6 +14,10 @@
         <link rel="stylesheet" type="text/css" href="../css/image-slider2-about.css">
 
         <link rel="stylesheet" type="text/css" href="../css/image-slider1-about.css">
+        
+        <link rel="stylesheet" href="../css/carousel.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
 
     </head>
     
@@ -66,149 +70,85 @@
                 <img class="photo-pro-4" src="../images-foodframe/photo-grid-img5.png" />
                 <img class="photo-pro-5" src="../images-foodframe/photo-grid-img6.png" />
             </div>
-            <div class="food-frame-about-vertical">
-                <h2>FOOD <span>FRAME</span></h2>
-                <hr width="100%">
-                <p>---------------------</p>
+            <div class="text">
+                <p class="company-name-1">FOOD <span class="company-name-2">FRAME</span></p> 
+                <hr class="separator1"> 
+                <div class="description">
+                    <p> Welcome to our software installation page. Follow the page and steps below to install our software on your computer or phone.</p>
+                </div>
                 <button class="button-join-us">Join Us</button> 
                 <button class="button-donate">Donate</button>
-                <hr width="100%">
-                <p>Have any questions?</p>
-                <p>Contact us!</p>
-                <p>*********</p>
-            </div>
-        </div>
-    <div class="image-background-div">
-        <div class="P2">
-            <div class="row-1">
-                <div class="column1-row-1">
-                    <p class="who-we-are">WHO WE ARE</p>
-                    <p class="more-about-us"> More about us</p>
-                    <p class="description-1">We are 1st year students at the University of Ottawa studying software engineering. This is our project for the our first year software engineering class, SEG2900!</p>
-                </div>
-                <div class="column2-row-1">
-                    <img src="../images-foodframe/about-2.jpeg"/>
+                <hr class="separator2">
+                <div class="question">
+                    <p>HAVE ANY QUESTIONS?
+                    <p> <a href="contact.html"> Contact us! </a> </p>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="image-background-div">
+            <div class="P2">
+                <div class="row-1">
+                    <div class="column1-row-1">
+                        <p class="who-we-are">WHO WE ARE</p>
+                        <p class="more-about-us"> More about us</p>
+                        <p class="description-1">We are 1st year students at the University of Ottawa studying software engineering. This is our project for the our first year software engineering class, SEG2900!</p>
+                        <p class="description-2"><span class="surligne"></span></p>
+                    </div>
+                    <div class="column2-row-1">
+                        <img src="../images-foodframe/about-2.jpeg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="hr-rule-with-title">
-            <span class="span-hr">
-                OUR MEMBERS
-            </span>
+            <hr class="hr-rule">
+            <div class="span-hr">OUR MEMBERS</div>
         </div>
         <div class="P3">
-            <div class="greater-div">
-                <!--
-                    Starting image slider
-                -->
-                    <div class="slider">
-                        <div class="slides">
-                        <!---Input Boxes for each image-->
-                            <input type="radio" name="radio-btn" id="radio1">
-                            <input type="radio" name="radio-btn" id="radio2">
-                            <input type="radio" name="radio-btn" id="radio3">
-                            <input type="radio" name="radio-btn" id="radio4">
-                            <input type="radio" name="radio-btn" id="radio5">
-        
-                        <!---Divs for each image-->   
-                        <div class="slide first">
-                            <img src="../images-foodframe/Executive1-about.png">
+            <div class="container">
+                <div id="slide">
+                    <div class="item" style="background-image: url(../images-foodframe/Executive1-about.png);">
+                        <div class="content">
+                            <div class="name">ANTHONY ALAM</div>
+                            <div class="des">Description.</div>
+                            <button>GENERAL MANAGER</button>
                         </div>
-                        <div class="slide second">
-                            <img src="../images-foodframe/Executive2-about.png">
+                    </div>
+                    <div class="item" style="background-image: url(../images-foodframe/Executive3-about.png);">
+                        <div class="content">
+                            <div class="name">BRADLEY-HANS DESMORNES</div>
+                            <div class="des">Description.</div>
+                            <button>DEVELOPER</button>
                         </div>
-                        <div class="slide third">
-                            <img src="../images-foodframe/Executive3-about.png">
+                    </div>
+                    <div class="item" style="background-image: url(../images-foodframe/Executive2-about.png);">
+                        <div class="content">
+                            <div class="name">ALEXANDER LUNGU</div>
+                            <div class="des">Description.</div>
+                            <button>DEVELOPER</button>
                         </div>
-                        <div class="slide fourth">
-                            <img src="../images-foodframe/Executive4-about.png">
+                    </div>
+                    <div class="item" style="background-image: url(../images-foodframe/Executive4-about.png);">
+                        <div class="content">
+                            <div class="name">GABRIEL TURGEON</div>
+                            <div class="des">Description.</div>
+                            <button>COMMUNITY MANAGER</button>
                         </div>
-                        <div class="slide fifth">
-                            <img src="../images-foodframe/Executive5-about.png">
-                        </div>
-        
-                        <!---Automatic navigation part-->
-                        <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                            <div class="auto-btn5"></div>
-                        </div>
-        
-                        </div>
-                        <!--Manual navigation part-->
-                        <div class="navigation-manual">
-                            <label for="radio1" class="manual-btn"></label>
-                            <label for="radio2" class="manual-btn"></label>
-                            <label for="radio3" class="manual-btn"></label>
-                            <label for="radio4" class="manual-btn"></label>
-                            <label for="radio5" class="manual-btn"></label>
+                    </div>
+                    <div class="item" style="background-image: url(../images-foodframe/Executive5-about.png);">
+                        <div class="content">
+                            <div class="name">SALMA SAJID</div>
+                            <div class="des">Description.</div>
+                            <button>DESIGNER</button>
                         </div>
                     </div>
                 </div>
-                <div class="greater-div">
-                    <!--
-                        Starting image slider
-                    -->
-                        <div class="slider1">
-                            <div class="slides">
-                            <!---Input Boxes for each image-->
-                                <input type="radio" name="radio-btn" id="radio6">
-                                <input type="radio" name="radio-btn" id="radio7">
-                                <input type="radio" name="radio-btn" id="radio8">
-                                <input type="radio" name="radio-btn" id="radio9">
-                                <input type="radio" name="radio-btn" id="radio10">
-            
-                            <!---Divs for each image-->   
-                            <div class="slide first">
-                                <p class="team-names">ANTHONY ALAM</p>
-                                <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                                <span class="role-span">ROLE</span>
-                            </div>
-                            <div class="slide second">
-                                <p class="team-names">BRADLEY-HANS DESMORNES</p>
-                                <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                                <span class="role-span">ROLE</span>
-                            </div>
-                            <div class="slide third">
-                                <p class="team-names">ALEXANDER LUNGU</p>
-                                <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                                <span class="role-span">ROLE</span>
-                            </div>
-                            <div class="slide fourth">
-                                <p class="team-names">GABRIEL TURGEON</p>
-                                <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                                <span class="role-span">ROLE</span>
-                            </div>
-                            <div class="slide fifth">
-                                <p class="team-names">SALMA SAJID</p>
-                                <p class="member-description">seffffffffffffffffffffffffffffffffffffffffffffffffsfsffffffsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                                <span class="role-span">ROLE</span>
-                            </div>
-            
-                            <!---Automatic navigation part-->
-                            <div class="navigation-auto">
-                                <div class="auto-btn1"></div>
-                                <div class="auto-btn2"></div>
-                                <div class="auto-btn3"></div>
-                                <div class="auto-btn4"></div>
-                                <div class="auto-btn5"></div>
-                            </div>
-            
-                            </div>
-                            <!--Manual navigation part-->
-                            <div class="navigation-manual">
-                                <label for="radio6" class="manual-btn"></label>
-                                <label for="radio7" class="manual-btn"></label>
-                                <label for="radio8" class="manual-btn"></label>
-                                <label for="radio9" class="manual-btn"></label>
-                                <label for="radio10" class="manual-btn"></label>
-                            </div>
-                        </div>
-                    </div> 
-        </div>
+                <div class="buttons">
+                    <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>        
         <div class="footer-div">
             <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
             <ul class="footer-content">
@@ -263,8 +203,7 @@
         }, 5000)
         ;
         </script>
-
-         <script type="text/javascript" src="../javascript/navbar.js"></script>
-
+        <script type="text/javascript" src="../javascript/carousel.js"></script>
+        <script type="text/javascript" src="../javascript/navbar.js"></script>
     </body>
 </html>

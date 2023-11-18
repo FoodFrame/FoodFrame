@@ -25,7 +25,21 @@ body{
   font-size: 15px;
   font-style: normal;
   font-weight: 200;
+  font-family: 'Roboto', sans-serif;
 }
+
+.encounter-issues {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+}
+
+.encounter-issues a {
+  color: #F29849;
+}
+
 
 .mobile {
   position: absolute;
@@ -156,13 +170,6 @@ body{
 
 .download_button span {
   font-size: 16px; 
-}
-
-.description a {
-  color: #F29849;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 550;
-  font-style: normal;
 }
 
 .transition{
