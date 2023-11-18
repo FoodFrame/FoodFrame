@@ -1,5 +1,4 @@
 body {
-    -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
 }
@@ -111,7 +110,7 @@ h1 > span {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url("../images-foodframe/background-hero.png");
+    background-image: url("https://s3-alpha-sig.figma.com/img/2624/06f7/7492dc608fc7674e38451957bd6f87fb?Expires=1699228800&Signature=V6zIgVnxFTcnKc18umqkoxU-RIQigpDFt7y44XzXStv4wJxfgJO1kvo1r0Pi70R~s8npKzmvFP6g-4DOtJfrPa9apiRGQMY1bZIVomhijzKZIVjs8WNqR8d5etTCPLL0L2G3HAG2OF5H9fWmmZq1MJEW-BAi9fJ2YzQ5D7ddYYLNqw0hPFedS3R-6GrSAVpPpIbihxr4ibk6tCwGJGnklPr18wjtWFlIkZ0-9fc7jIwWuEFo22JXVOT~bJuAvinYcq946Sz0VoSRyc9daUnbUwQy3Y2o3a2UOfXnESfZQr0lerEb8k5C9If6QXauCRM6bP4f0nJP9q1JxRLFBjQWUQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,59 +1,49 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Food Frame - Contact</title>
-
         <link rel="stylesheet" type="text/css" href="../css/contact.css">
-
         <link rel="stylesheet" type="text/css" href="../css/navbar.css">
-
         <link rel="stylesheet" type="text/css" href="../css/footer.css">
-
         <link rel="stylesheet" type="text/css" href="../css/langage_button.css">
-
     </head>
-    
     <body>
         <div class="navbar_container">
-            <header>
-                <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
+    <header>
+        <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food_frame_logo">
 
-                <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+        <input type="checkbox" id="nav_dropdown" class="nav_dropdown">
+            
+        <nav>
+            <ul class="navbar-content">
+                <li class="navbar-elements" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
+                    <a href="home.html">Home</a>
+                </li>
 
-                <div id="opacity_nav" onclick="navClose()"></div>
-                    
-                <nav>
-                    <ul class="navbar-content">
-                        <li class="nav_el1" id='home-element' onmouseenter="changeNavbarElementColor('home-element')" onmouseleave="changeNavbarNormal('home-element')">
-                            <a href="home.html">Home</a>
-                        </li>
+                <li class="navbar-elements" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
+                    <a href="install now.html">Install Now</a>
+                </li>
 
-                        <li class="nav_el2" id='install-now-element' onmouseenter="changeNavbarElementColor('install-now-element')" onmouseleave="changeNavbarNormal('install-now-element')">
-                            <a href="install now.html">Install Now</a>
-                        </li>
+                <li class="navbar-elements" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
+                    <a href="contact.html">Contact</a>
+                </li>
 
-                        <li class="nav_el3" id='contact-element' onmouseenter="changeNavbarElementColor('contact-element')" onmouseleave="changeNavbarNormal('contact-element')">
-                            <a href="contact.html">Contact</a>
-                        </li>
+                <li class="navbar-elements" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
+                    <a href="about.html">About</a>
+                </li>
 
-                        <li class="nav_el4" id='about-element' onmouseenter="changeNavbarElementColor('about-element')" onmouseleave="changeNavbarNormal('about-element')">
-                            <a href="about.html">About</a>
-                        </li>
+                <li class="navbar-elements"> <a>FR</a>
+                </li>
+            </ul>
+        </nav>
 
-                        <li class="nav_el5"> <a>FR</a>
-                        </li>
-                    </ul>
-                </nav>
+        <label for="nav_dropdown" class="nav_dropdown_label"> 
+            <span></span>
+        </label>
 
-                <label for="nav_dropdown" class="nav_dropdown_label"> 
-                    <span></span>
-                </label>
+    </header>
+    
+</div>   
 
-         </header>
-
-        </div> 
-
-        <h1 class="food-frame-contact">CONTACT<span>US</span></h1>
+        <h1 class="food-frame-contact">CONTACT<span> US</span></h1>
         <p class="questions-concerns">Any question or remarks? Just write us a message!</p>
         <div class="contact-us-hero">
             <div class="contact-information">
@@ -65,34 +55,38 @@
                 </ul>
             </div>
             <div class="write-a-message">
-                <div class="column-direction-small">
-                    <div class="messages-writer-stats1">
-                        <p>First Name</p>
-                        <input class="input-boxes">
-                        <p>Last Name</p>
-                        <input class="input-boxes">
-                    </div>
-                    <div class="messages-writer-stats2">
-                        <p>Email</p>
-                        <input class="input-boxes">
-                        <p>Phone</p>
-                        <input class="input-boxes">
-                    </div>
+                <div class="messages-writer-stats1">
+                    <p>First Name</p>
+                    <input class="input-boxes">
+                    <p>Last Name</p>
+                    <input class="input-boxes">
+                </div>
+                <div class="messages-writer-stats2">
+                    <p>Email</p>
+                    <input class="input-boxes">
+                    <p>Phone</p>
+                    <input class="input-boxes">
                 </div>
                 <div class="member-speak-to">
-                    <p class="select-which-member">Select which members you would like to speak to:</p>
+                    <p class="select-which-member">Select which member to speak to:</p>
                         <div class="member-speak-to-row-1">
                             <div class="inner-container-1">
-                                <li id='general-manager' class="list1" onclick="checkCircleBox('general-manager')">General Manager</li>
-                                <li id='community-manager' class="list" onclick="checkCircleBox('community-manager')">Community Manager</li>
+                                <span id='general-manager' class="input-circle" onclick="checkCircleBox('general-manager')"></span>   
+                                <li id='general-manager' class="list">General Manager</li>
+                                <span id='community-manager' class="input-circle" onclick="checkCircleBox('community-manager')" ></span>
+                                <li id='community-manager' class="list">Community Manager</li>
                             </div>
                             <div class="inner-container-1">
-                                <li id='developper-1' class="list1" onclick="checkCircleBox('developper-1')">Developer 1</li>
-                                <li id='developper-2' class="list" onclick="checkCircleBox('developper-2')">Developer 2</li>
+                                <span id='developper-1' class="input-circle" onclick="checkCircleBox('developper-1')"></span>   
+                                <li id='developper-1' class="list">Developer 1</li>
+                                <span id='developper-2' class="input-circle" onclick="checkCircleBox('developper-2')"></span>
+                                <li id='developper-2' class="list">Developer 2</li>
                             </div>
                             <div class="inner-container-1">
-                                <li id='designer' class="list1" onclick="checkCircleBox('designer')">Designer</li>
-                                <li id='no-preference' class="list" onclick="checkCircleBox('no-preference')">No Preference</li>
+                                <span id='designer' class="input-circle" onclick="checkCircleBox('designer')"></span>
+                                <li id='designer' class="list">Designer</li>
+                                <span id='no-preference' class="input-circle" onclick="checkCircleBox('no-preference')"></span>
+                                <li id='no-preference' class="list">No Preference</li>
                             </div>
                         </div>
                     </div>
@@ -105,7 +99,6 @@
                 </div>
             </div>
         </div>
-        <!--New footer :(-->
         <div class="footer-div">
             <img src="../images-foodframe/food-frame-logo.png" alt="Our LOGO" class="food-frame-logo">
             <ul class="footer-content">
@@ -135,8 +128,7 @@
                 </div>
             </div>
         </div>
-
-        <script src="../javascript/contact.js"></script>
-        <script type="text/javascript" src="../javascript/navbar.js"></script>
     </body>
+    <script src="../javascript/contact.js"></script>
+    <script src="../javascript/navbar.js"></script>
 </html>

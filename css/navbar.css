@@ -1,9 +1,22 @@
 body{
-  -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
 }
 
+#opacity_nav{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top:0; 
+    left:0; 
+    background: rgba(111, 111, 111, 0.22); 
+    opacity: 0; 
+    visibility: hidden;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    z-index: 10;
+    pointer-events: none;
+
+}
 
 :root {
     --background: rgb(248,180,116);
@@ -16,24 +29,26 @@ body{
 .navbar_container{
     display: grid;
     place-items: center;
+
 }
 
-header{ 
+header{
     background: var(--background);
     height: 90px;
     position: fixed;
-    top: 0;
     text-align: center;
     z-index: 999;
     width: 100%;  
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif;
     z-index: 30;
+
+
 }
 
-
-.food_frame_logo{ /* Setting the height of the logo to match the size of nav */
+.food_frame_logo{
     height: 90%;
+
 }
 
 .nav_dropdown{
@@ -78,11 +93,6 @@ header{
     bottom: 7px;
 }
 
-.nav_dropdown_label:hover{
-    cursor: pointer;
-}
-
-
 
 nav{
     position: absolute;
@@ -108,34 +118,8 @@ nav ul{
     line-height: 100%;
 }
 
-nav li{
-    margin-bottom: 2em;
-    margin-left: 0.8em;
-    letter-spacing: 2.0px;
-}
-
-.nav_el1{
-    width: 54px;
-}
-
-.nav_el2{
-    width: 123px;
-}
-
-.nav_el3{
-    width: 90px;
-}
-
-.nav_el4{
-    width: 66px;
-}
-
-.nav_el5{
-    width: 26px;
-}
-
 nav li:hover{
-    padding: 0.55% 0% 0.55% 0%;
+    padding: 0.3% 0% 0.3% 0%;
     font-weight: 400;
     line-height: 12px;
     font-style: normal;
@@ -144,7 +128,17 @@ nav li:hover{
     border-left: none;
     border-right: none;
 
+
 }
+
+
+
+nav li{
+    margin-bottom: 2em;
+    margin-left: 1em;
+    letter-spacing: 3.0px;
+}
+
 
 nav a{
     color: #3F1903;
@@ -169,26 +163,10 @@ nav a{
     opacity: 0;
 }
 
-#opacity_nav{
-    position: fixed; 
-    width: 100%; 
-    height: 100%; 
-    top:90px; 
-    left:0; 
-    background: rgba(111, 111, 111, 0.33); 
-    opacity: 0; 
-    visibility: hidden;
-    transition: visibility 1s ease-in-out, opacity 1s ease-in-out;
-    z-index: 10;
-    display: none;
-
-}
-
-
 .nav_dropdown:checked + #opacity_nav{
     opacity: 1;
     visibility: visible;
-    display: block;
+    transition: visibility 0s linear 0s, opacity 0.5s linear; /* Apply the opacity transition immediately when showing */
 
 }
 
@@ -196,7 +174,7 @@ nav a{
 
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 730px){
     .nav_dropdown_label{
         display: none;
     }
@@ -229,6 +207,11 @@ nav a{
 
     }
 
+    nav a {
+        opacity: 100;
+        color: #3F1903;
+
+    }
 
     nav li {
         margin-left: 3em;
@@ -236,46 +219,6 @@ nav a{
         letter-spacing: 3.0px;
         font-size: 15px;
         line-height: 100%;
-
-    }
-
-    nav li:hover{
-    padding: 0.30% 0% 0.30% 0%;
-    font-weight: 400;
-    line-height: 12px;
-    font-style: normal;
-    border: 1px solid #3F1903;
-    border-radius: 2px;
-    border-left: none;
-    border-right: none;
-
-    }
-
-
-    .nav_el1{
-    width: 56px;
-    }
-
-    .nav_el2{
-        width: 135px;
-    }
-
-    .nav_el3{
-        width: 90px;
-    }
-
-    .nav_el4{
-        width: 66px;
-    }
-
-    .nav_el5{
-        width: 26px;
-    }
-
-
-    nav a {
-        opacity: 100;
-        color: #3F1903;
 
     }
 
