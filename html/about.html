@@ -4,21 +4,15 @@
         <title>Food Frame - About</title>
 
         <link rel="stylesheet" type="text/css" href="../css/about.css">
-
         <link rel="stylesheet" type="text/css" href="../css/navbar.css">
-
         <link rel="stylesheet" type="text/css" href="../css/footer.css">
-
         <link rel="stylesheet" type="text/css" href="../css/langage_button.css">
-
         <link rel="stylesheet" type="text/css" href="../css/image-slider2-about.css">
-
         <link rel="stylesheet" type="text/css" href="../css/image-slider1-about.css">
-
         <link rel="stylesheet" href="../css/carousel.css">
-
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
+        <script src="/javascript/navbar.js"></script>
     </head>
     
     <body>
@@ -179,33 +173,7 @@
                 </div>
             </div>
         </div>
-        <script>
-        let counterImgCount = 1;
-        let counterTextCount = 6;
-        setInterval(function() {
-            console.log(counterTextCount)
-            if (counterTextCount == 11) {
-                counterTextCount++;
-            }
-            else {
-                document.getElementById('radio' + counterTextCount).disabled = true;
-                document.getElementById('radio' + counterImgCount).checked = true;
-                counterImgCount++;
-                counterTextCount++;
-            }
-            if (counterTextCount > 11) {
-                counterImgCount = 1;
-                counterTextCount = 6;
-                for (let i = 0; i < counterTextCount - 1; i++) {
-                    document.getElementById('radio' + (6 + i)).disabled = false;
-                }
-                document.getElementById('radio' + 1).checked = true;
-            }
-        }, 5000)
-        ;
-        </script>
-
          <script type="text/javascript" src="../javascript/navbar.js"></script>
-
+         <script type="text/javascript" src="../javascript/contact.js"></script>
     </body>
 </html>
