@@ -26,7 +26,7 @@ body{
 .contact-information {
     display: flex;
     color: white;
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 500;
     width: 45%;
     display: inline-block;
@@ -43,6 +43,7 @@ body{
     list-style: none;
     padding-left: 7%;
     margin-top: 50px;
+    font-size: 14px;
 }
 
 .contact-information > p {
@@ -57,9 +58,9 @@ body{
     display: flex;
     background-image: url("../images-foodframe/phone-logo.png");
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: large;
     padding-left: 12%;
-    height: 6.6%;
+    height: 5%;
     width: 80%;
     align-items: center;
 }
@@ -68,9 +69,9 @@ body{
     display: flex;
     background-image: url("../images-foodframe/email-logo.png");
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: large;
     padding-left: 12%;
-    height: 6.6%;
+    height: 5%;
     width: 80%;
     align-items: center;
 }
@@ -79,9 +80,9 @@ body{
     display: flex;
     background-image: url("../images-foodframe/location-logo.png");
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: large;
     padding-left: 12%;
-    height: 6.6%;
+    height: 5%;
     width: 90%;
     align-items: center;
 }
