@@ -44,6 +44,7 @@ body {
     padding: 0;
     margin: 0;
     margin-bottom: 4%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bigger-text-weight {
@@ -127,6 +128,7 @@ body {
      font-weight: 300;
      padding: 0;
      margin: 0;
+     font-weight: 600;
  }
 
  .company-name-2 {
@@ -451,5 +453,11 @@ body {
     .image-background-div {
         height: 75%;
         margin-bottom: -10%;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .P1 {
+        margin-bottom: 30%;
     }
 }
