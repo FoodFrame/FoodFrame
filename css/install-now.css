@@ -204,28 +204,13 @@ body{
   color: #331300;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  justify-content: center;
-  padding: 5% 2%;
+  margin-bottom: 8%;
 }
 
-.paid-container {
-  display: flex;
-  border-radius: 10px;
-  background-color: lightcoral;
-  width: 22%;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.paid-options-size {
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+.paid-version-block img {
+  width: 80%;
+  height: auto;
+  box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.05);
 }
 
 .small-separator {
