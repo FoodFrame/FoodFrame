@@ -233,7 +233,7 @@ body {
     width: 40%;
     justify-content: center;
     align-items: center;
-    padding: 0 2%;
+    padding: 10px 4px 50px 4px;
 }
 
 .column1-row-1 > * {
@@ -395,7 +395,7 @@ body {
         height: 85%;
         width: 90%;
         margin: auto;
-        margin-top: 15%;
+        margin-top: 300px;
         padding: 0;
         margin-bottom: 2%;
     }
@@ -444,7 +444,6 @@ body {
         height: 30%;
         margin-top: 0;
         padding-top: 0;
-        padding-bottom: 0;
         margin-bottom: 0;
     }
 
@@ -466,4 +465,5 @@ body {
     .P1 {
         margin-bottom: 30%;
     }
+
 }
