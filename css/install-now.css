@@ -188,6 +188,7 @@ body{
   font-weight: 400;
   line-height: normal;
   margin-top: 25%;
+  margin-block-end: 100px;
 }
 
 .paid-version-div {
