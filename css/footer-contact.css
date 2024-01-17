@@ -40,14 +40,14 @@ body {
   }
   
   .footer-elements > a {
-      color: #602400;
-      text-align: center;
-      align-items: center;
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
-      text-decoration: none;
+    color: #602400;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
   }
-  
+
   .footer-div > hr {
       width: 80%;
       border: none;
